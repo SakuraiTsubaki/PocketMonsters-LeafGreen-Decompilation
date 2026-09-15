@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-LeafGreen-Decompilation",
+  "targets": [],
+  "status": "no_verified_target_build_inventoried",
+  "notes": ["Populate only from directly observed local targets.", "Do not commit retail game images, keys, or absolute local paths.", "Keep regions, languages, revisions, and updates separate."]
+}
