@@ -13,6 +13,13 @@ Decompilation and source-reconstruction project for **Pokémon LeafGreen**.
 - Keep analysis, tooling, metadata, and documentation reproducible.
 - Build a clean foundation for long-term reverse-engineering work.
 
+## 🧬 Repository characteristics
+
+- Generation III **Game Boy Advance** Kanto remake targeting the ARM7TDMI architecture.
+- High-level C/source reconstruction with functions, data structures, scripts, and resource relationships as primary targets.
+- LeafGreen-specific language/revision differences remain explicit rather than being flattened into FireRed.
+- Related Gen III titles are comparison references, not assumptions of identical implementation.
+
 ## 🚧 Status
 
 This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
