@@ -1,11 +1,1 @@
-{
-  "repository": "SakuraiTsubaki/PocketMonsters-LeafGreen-Decompilation",
-  "target": "Pocket Monsters LeafGreen",
-  "platform_family": "Game Boy Advance",
-  "generation": "Generation III",
-  "identity_status": "unselected",
-  "release": null,
-  "region": null,
-  "revision": null,
-  "hashes": []
-}
+{"repository":"SakuraiTsubaki/PocketMonsters-LeafGreen-Decompilation","target":"Pocket Monsters LeafGreen","platform_family":"Game Boy Advance","generation":"Generation III","identity_status":"identified","release":"Pocket Monsters LeafGreen","region":"Japan","revision":"0","language":"ja","distribution":"Game Boy Advance retail cartridge","product_code":"BPGJ","size":16777216,"header":{"title":"POKEMON LEAF","game_code":"BPGJ","maker_code":"01","software_version":0,"header_checksum":124},"language_priority":["ja","ko","en","other"],"language_fallback_policy":{"primary":"ja","secondary":"ko","when_korean_unavailable":"en","remaining":"other_official_languages"},"hashes":[{"algorithm":"sha1","value":"5946f1b59e8d71cc61249661464d864185c92a5f"},{"algorithm":"sha256","value":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"}]}
