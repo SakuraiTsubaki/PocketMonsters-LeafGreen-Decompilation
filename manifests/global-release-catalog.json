@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/import_release_catalog.py"
+  },
+  "inputs": [
+    {
+      "repository": "SakuraiTsubaki/PocketMonsters-LeafGreen-Disassembly",
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    }
+  ]
+}
