@@ -4,3 +4,8 @@ The BPGJ revision 0 bootstrap calls `0x080004b0` three times. A publication-safe
 Thumb trace reaches the return at `0x08000552`, covers 82 instruction positions,
 records seven direct call sites and twelve branch edges, and omits raw ROM
 halfwords. This is the next behavior-reconstruction frontier.
+
+Control flow and literal-address accesses match `pret/pokefirered` `src/main.c`.
+The traced region is now reconstructed as `UpdateLinkAndCallCallbacks`,
+`InitMainCallbacks`, `CallCallbacks`, and `SetMainCallback2` in
+`src/main_callbacks.c`.
