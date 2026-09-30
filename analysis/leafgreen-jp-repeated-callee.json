@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 1200,
+  "start_address": 134218928,
+  "scan_limit_address": 134219184,
+  "instruction_halfwords": 82,
+  "range_start": 134218928,
+  "range_end": 134219092,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134218928,
+      "kind": "other"
+    },
+    {
+      "address": 134218930,
+      "kind": "call",
+      "target": 134261616
+    },
+    {
+      "address": 134218932,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218934,
+      "kind": "other"
+    },
+    {
+      "address": 134218936,
+      "kind": "other"
+    },
+    {
+      "address": 134218938,
+      "kind": "conditional-branch",
+      "target": 134218944
+    },
+    {
+      "address": 134218940,
+      "kind": "call",
+      "target": 134219024
+    },
+    {
+      "address": 134218942,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218944,
+      "kind": "other"
+    },
+    {
+      "address": 134218946,
+      "kind": "other"
+    },
+    {
+      "address": 134218948,
+      "kind": "other"
+    },
+    {
+      "address": 134218950,
+      "kind": "other"
+    },
+    {
+      "address": 134218952,
+      "kind": "other"
+    },
+    {
+      "address": 134218954,
+      "kind": "other"
+    },
+    {
+      "address": 134218956,
+      "kind": "other"
+    },
+    {
+      "address": 134218958,
+      "kind": "other"
+    },
+    {
+      "address": 134218960,
+      "kind": "other"
+    },
+    {
+      "address": 134218962,
+      "kind": "call",
+      "target": 134219076
+    },
+    {
+      "address": 134218964,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218966,
+      "kind": "other"
+    },
+    {
+      "address": 134218968,
+      "kind": "other"
+    },
+    {
+      "address": 134218970,
+      "kind": "other"
+    },
+    {
+      "address": 134218972,
+      "kind": "other"
+    },
+    {
+      "address": 134218974,
+      "kind": "other"
+    },
+    {
+      "address": 134218976,
+      "kind": "other"
+    },
+    {
+      "address": 134218978,
+      "kind": "other"
+    },
+    {
+      "address": 134218980,
+      "kind": "other"
+    },
+    {
+      "address": 134218982,
+      "kind": "other"
+    },
+    {
+      "address": 134218984,
+      "kind": "other"
+    },
+    {
+      "address": 134218986,
+      "kind": "other"
+    },
+    {
+      "address": 134218988,
+      "kind": "other"
+    },
+    {
+      "address": 134218990,
+      "kind": "other"
+    },
+    {
+      "address": 134218992,
+      "kind": "other"
+    },
+    {
+      "address": 134218994,
+      "kind": "other"
+    },
+    {
+      "address": 134218996,
+      "kind": "other"
+    },
+    {
+      "address": 134218998,
+      "kind": "other"
+    },
+    {
+      "address": 134219000,
+      "kind": "conditional-branch",
+      "target": 134218982
+    },
+    {
+      "address": 134219002,
+      "kind": "other"
+    },
+    {
+      "address": 134219004,
+      "kind": "other"
+    },
+    {
+      "address": 134219006,
+      "kind": "other"
+    },
+    {
+      "address": 134219008,
+      "kind": "other"
+    },
+    {
+      "address": 134219010,
+      "kind": "other"
+    },
+    {
+      "address": 134219012,
+      "kind": "other"
+    },
+    {
+      "address": 134219014,
+      "kind": "other"
+    },
+    {
+      "address": 134219016,
+      "kind": "other"
+    },
+    {
+      "address": 134219018,
+      "kind": "other"
+    },
+    {
+      "address": 134219020,
+      "kind": "other"
+    },
+    {
+      "address": 134219022,
+      "kind": "other"
+    },
+    {
+      "address": 134219024,
+      "kind": "other"
+    },
+    {
+      "address": 134219026,
+      "kind": "call",
+      "target": 135225664
+    },
+    {
+      "address": 134219028,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219030,
+      "kind": "other"
+    },
+    {
+      "address": 134219032,
+      "kind": "conditional-branch",
+      "target": 134219066
+    },
+    {
+      "address": 134219034,
+      "kind": "call",
+      "target": 135512076
+    },
+    {
+      "address": 134219036,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219038,
+      "kind": "other"
+    },
+    {
+      "address": 134219040,
+      "kind": "other"
+    },
+    {
+      "address": 134219042,
+      "kind": "conditional-branch",
+      "target": 134219066
+    },
+    {
+      "address": 134219044,
+      "kind": "other"
+    },
+    {
+      "address": 134219046,
+      "kind": "other"
+    },
+    {
+      "address": 134219048,
+      "kind": "other"
+    },
+    {
+      "address": 134219050,
+      "kind": "conditional-branch",
+      "target": 134219056
+    },
+    {
+      "address": 134219052,
+      "kind": "call",
+      "target": 136084132
+    },
+    {
+      "address": 134219054,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219056,
+      "kind": "other"
+    },
+    {
+      "address": 134219058,
+      "kind": "other"
+    },
+    {
+      "address": 134219060,
+      "kind": "conditional-branch",
+      "target": 134219066
+    },
+    {
+      "address": 134219062,
+      "kind": "call",
+      "target": 136084132
+    },
+    {
+      "address": 134219064,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219066,
+      "kind": "other"
+    },
+    {
+      "address": 134219068,
+      "kind": "other"
+    },
+    {
+      "address": 134219070,
+      "kind": "other"
+    },
+    {
+      "address": 134219072,
+      "kind": "other"
+    },
+    {
+      "address": 134219074,
+      "kind": "other"
+    },
+    {
+      "address": 134219076,
+      "kind": "other"
+    },
+    {
+      "address": 134219078,
+      "kind": "other"
+    },
+    {
+      "address": 134219080,
+      "kind": "other"
+    },
+    {
+      "address": 134219082,
+      "kind": "other"
+    },
+    {
+      "address": 134219084,
+      "kind": "other"
+    },
+    {
+      "address": 134219086,
+      "kind": "other"
+    },
+    {
+      "address": 134219088,
+      "kind": "other"
+    },
+    {
+      "address": 134219090,
+      "kind": "return"
+    }
+  ],
+  "edges": [
+    {
+      "source": 134218938,
+      "target": 134218944,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218938,
+      "target": 134218940,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219000,
+      "target": 134218982,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219000,
+      "target": 134219002,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219032,
+      "target": 134219066,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219032,
+      "target": 134219034,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219042,
+      "target": 134219066,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219042,
+      "target": 134219044,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219050,
+      "target": 134219056,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219050,
+      "target": 134219052,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219060,
+      "target": 134219066,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219060,
+      "target": 134219062,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [
+    {
+      "source": 134218930,
+      "target": 134261616
+    },
+    {
+      "source": 134218940,
+      "target": 134219024
+    },
+    {
+      "source": 134218962,
+      "target": 134219076
+    },
+    {
+      "source": 134219026,
+      "target": 135225664
+    },
+    {
+      "source": 134219034,
+      "target": 135512076
+    },
+    {
+      "source": 134219052,
+      "target": 136084132
+    },
+    {
+      "source": 134219062,
+      "target": 136084132
+    }
+  ],
+  "returns": [
+    134219090
+  ],
+  "source_size": 16777216,
+  "source_sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+  "raw_halfwords_omitted": true
+}
