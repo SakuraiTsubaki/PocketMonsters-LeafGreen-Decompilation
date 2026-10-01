@@ -1,0 +1,11 @@
+{
+  "schema_version":1,
+  "id":"leafgreen-jp-agb-main-reconstruction",
+  "input":{"release":"BPGJ-rev0","size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","cfg":"analysis/leafgreen-jp-thumb-entry-cfg.json"},
+  "outputs":[
+    {"path":"analysis/leafgreen-jp-agb-main-map.json","sha256":"ba7e7974b447de7e6473bdbeabdb72594b131f90cd19169411276151f453e3a8"},
+    {"path":"src/main_loop.c","sha256":"b05098cfd0998cc9afe36c14d9515766351a502fbf58b4d406dde04783700a76"},
+    {"path":"research/agb-main-reconstruction.md","sha256":"ce18ec68a8fcaa85a0b1532fb4acc87cba2a7c1db7d09d79e3e17d561e93beb0"}
+  ],
+  "verification":{"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}
+}

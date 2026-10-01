@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "function": {
+    "name": "AgbMain",
+    "address": 134218660,
+    "range_end_exclusive": 134218924,
+    "nonreturning": true,
+    "loop_back_edge": {
+      "source": 134218922,
+      "target": 134218778
+    }
+  },
+  "source": "src/main_loop.c",
+  "direct_calls": [
+    {
+      "address": 134218668,
+      "target": 136084092,
+      "name": "RegisterRamReset"
+    },
+    {
+      "address": 134218682,
+      "target": 134220136,
+      "name": "InitGpuRegManager"
+    },
+    {
+      "address": 134218694,
+      "target": 134219200,
+      "name": "InitKeys"
+    },
+    {
+      "address": 134218698,
+      "target": 134219400,
+      "name": "InitIntrHandlers"
+    },
+    {
+      "address": 134218702,
+      "target": 136056780,
+      "name": "m4aSoundInit"
+    },
+    {
+      "address": 134218706,
+      "target": 134219160,
+      "name": "EnableVCountIntrAtLine150"
+    },
+    {
+      "address": 134218710,
+      "target": 135239432,
+      "name": "InitRFU"
+    },
+    {
+      "address": 134218714,
+      "target": 134526876,
+      "name": "CheckForFlashMemory"
+    },
+    {
+      "address": 134218718,
+      "target": 134218948,
+      "name": "InitMainCallbacks"
+    },
+    {
+      "address": 134218722,
+      "target": 134680796,
+      "name": "InitMapMusic"
+    },
+    {
+      "address": 134218726,
+      "target": 134220796,
+      "name": "ClearDma3Requests"
+    },
+    {
+      "address": 134218730,
+      "target": 134221864,
+      "name": "ResetBgs"
+    },
+    {
+      "address": 134218740,
+      "target": 134228864,
+      "name": "InitHeap"
+    },
+    {
+      "address": 134218744,
+      "target": 135236096,
+      "name": "SetDefaultFontsPointer"
+    },
+    {
+      "address": 134218758,
+      "target": 135225628,
+      "name": "SetNotInSaveFailedScreen"
+    },
+    {
+      "address": 134218762,
+      "target": 136083112,
+      "name": "AGBPrintInit"
+    },
+    {
+      "address": 134218778,
+      "target": 134219240,
+      "name": "ReadKeys"
+    },
+    {
+      "address": 134218808,
+      "target": 136071564,
+      "name": "rfu_REQ_stopMode"
+    },
+    {
+      "address": 134218812,
+      "target": 136071344,
+      "name": "rfu_waitREQComplete"
+    },
+    {
+      "address": 134218816,
+      "target": 134219992,
+      "name": "DoSoftReset"
+    },
+    {
+      "address": 134218820,
+      "target": 134577052,
+      "name": "Overworld_SendKeysToLinkIsRunning"
+    },
+    {
+      "address": 134218830,
+      "target": 134218928,
+      "name": "UpdateLinkAndCallCallbacks"
+    },
+    {
+      "address": 134218910,
+      "target": 134562096,
+      "name": "PlayTimeCounter_Update"
+    },
+    {
+      "address": 134218914,
+      "target": 134680816,
+      "name": "MapMusicMain"
+    },
+    {
+      "address": 134218918,
+      "target": 134219920,
+      "name": "WaitForVBlank"
+    },
+    {
+      "address": 134218878,
+      "target": 134218928,
+      "name": "UpdateLinkAndCallCallbacks"
+    },
+    {
+      "address": 134218882,
+      "target": 134576944,
+      "name": "Overworld_RecvKeysFromLinkIsRunning"
+    },
+    {
+      "address": 134218896,
+      "target": 134246092,
+      "name": "ClearSpriteCopyRequests"
+    },
+    {
+      "address": 134218902,
+      "target": 134218928,
+      "name": "UpdateLinkAndCallCallbacks"
+    }
+  ],
+  "proven_offsets": {
+    "gMain.heldKeysRaw": 40,
+    "gMain.newKeys": 46
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  }
+}
+
