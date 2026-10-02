@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "outputs": [
+    {
+      "path": "src/key_input.c",
+      "sha256": "ad61eb5027257833023af8ffc2759c7f41c8acc824a3b51402e4757a5a55d361"
+    },
+    {
+      "path": "analysis/leafgreen-jp-key-input-map.json",
+      "sha256": "99219c4e67bdcb9da9f6a05b5cd7fb03a40cdaf1e9c387d729726b1aec73313a"
+    },
+    {
+      "path": "research/key-input-reconstruction.md",
+      "sha256": "64dfece1f4a41461701077e334d744b1bf1d7600d0ec290de3867482c2dff995"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

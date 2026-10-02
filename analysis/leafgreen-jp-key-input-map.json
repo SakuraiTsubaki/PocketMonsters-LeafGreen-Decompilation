@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "source": "src/key_input.c",
+  "functions": [
+    {
+      "name": "InitKeys",
+      "address": 134219200,
+      "range_end_exclusive": 134219228
+    },
+    {
+      "name": "ReadKeys",
+      "address": 134219240,
+      "range_end_exclusive": 134219390
+    }
+  ],
+  "rom_code_range": {
+    "start_offset": 1472,
+    "end_offset_exclusive": 1662,
+    "sha256": "7d473529a37c87cd9a0236adaa8d6ba1fda7a635bc1165b493b7887ac7846d63",
+    "raw_bytes_published": false
+  },
+  "literal_addresses": {
+    "REG_KEYINPUT": "0x04000130",
+    "KEYS_MASK": "0x03FF",
+    "gMain": "0x03003130",
+    "gSaveBlock2Ptr": "0x0300504C",
+    "gKeyRepeatContinueDelay": "0x0300356C",
+    "gKeyRepeatStartDelay": "0x03003120"
+  },
+  "proven_offsets": {
+    "heldKeysRaw": 40,
+    "newKeysRaw": 42,
+    "heldKeys": 44,
+    "newKeys": 46,
+    "newAndRepeatedKeys": 48,
+    "keyRepeatCounter": 50,
+    "watchedKeysPressed": 52,
+    "watchedKeysMask": 54,
+    "optionsButtonMode": 19
+  },
+  "version_difference": {
+    "save_options_access": "pointer_indirect",
+    "pointer_symbol": "gSaveBlock2Ptr"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "instruction order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  }
+}
