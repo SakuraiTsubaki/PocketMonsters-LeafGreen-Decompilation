@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "target": {"release": "BPGJ-rev0", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
+  "function": "VBlankIntr",
+  "outputs": [
+    {"path": "src/vblank_intr.c", "sha256": "4f8b70f0203af2c154d33f15be3b100ddfa6a8a698785cfd8e8ea70cd523a207"},
+    {"path": "analysis/leafgreen-jp-vblank-intr-map.json", "sha256": "1cf56776c29c155e786f654306a28dfbefa19e19d565302be2c8784a940faa1a"},
+    {"path": "research/vblank-intr-reconstruction.md", "sha256": "64febf82645a5244f047bc8f53ae91d1da81b3ba42a03c4bd18cdb2adbf7cb33"}
+  ],
+  "raw_rom_bytes_included": false
+}
+
