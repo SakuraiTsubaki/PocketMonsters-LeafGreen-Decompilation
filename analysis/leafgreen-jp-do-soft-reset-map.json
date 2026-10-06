@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "source": "src/do_soft_reset.c",
+  "function": {
+    "name": "DoSoftReset",
+    "address": "0x080008D8",
+    "range_end_exclusive": "0x08000930",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 2264,
+    "end_offset_exclusive": 2352,
+    "sha256": "dbe54fad672a911a2b27b6a13903f252386a5c2a16811c1150820295cfa3447a",
+    "raw_bytes_published": false
+  },
+  "calls": [
+    {
+      "address": "0x080008E0",
+      "target": "0x081C16C0",
+      "name": "m4aSoundVSyncOff"
+    },
+    {
+      "address": "0x080008E4",
+      "target": "0x08087A1C",
+      "name": "ScanlineEffect_Stop"
+    },
+    {
+      "address": "0x08000926",
+      "target": "0x081C7A80",
+      "name": "SoftReset"
+    }
+  ],
+  "hardware_writes": {
+    "REG_IME": "0x04000208",
+    "dma_control_high": [
+      "0x040000C6",
+      "0x040000D2",
+      "0x040000DE"
+    ]
+  },
+  "behavior": {
+    "interrupt_master_enable": 0,
+    "dma_channels_stopped": [
+      1,
+      2,
+      3
+    ],
+    "rtc_protected": false,
+    "soft_reset_mask": "0xDF"
+  },
+  "cfg": "analysis/leafgreen-jp-do-soft-reset-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "straight-line call order, hardware addresses and constants",
+    "raw_rom_bytes_published": false
+  }
+}
+
