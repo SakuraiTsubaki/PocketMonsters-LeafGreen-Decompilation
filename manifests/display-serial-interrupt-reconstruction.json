@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "target": {"release": "BPGJ-rev0", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
+  "functions": ["HBlankIntr", "VCountIntr", "SerialIntr"],
+  "outputs": [
+    {"path": "src/display_serial_interrupts.c", "sha256": "6d4fed1006573375647c84e90c113758d370ec025c837a9c5e1c1a9f1f4f105d"},
+    {"path": "analysis/leafgreen-jp-display-serial-interrupt-map.json", "sha256": "7fe3dc93e757cb87045cca42d814aacf1a3f53964d19c46724a30a6dea52ef15"},
+    {"path": "research/display-serial-interrupt-reconstruction.md", "sha256": "0e22295203626942bcac8cdd7415ecfc6fe0771b21cb0a1958c34b86e544eade"}
+  ],
+  "raw_rom_bytes_included": false
+}
+

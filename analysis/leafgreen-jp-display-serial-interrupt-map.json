@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "target": {"release": "BPGJ-rev0", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
+  "source": "src/display_serial_interrupts.c",
+  "functions": [
+    {"name": "HBlankIntr", "address": "0x080007DC", "range_end_exclusive": "0x08000802"},
+    {"name": "VCountIntr", "address": "0x0800080C", "range_end_exclusive": "0x08000832"},
+    {"name": "SerialIntr", "address": "0x08000844", "range_end_exclusive": "0x0800086A"}
+  ],
+  "rom_code_and_literals": {"start_offset": 2012, "end_offset_exclusive": 2164, "sha256": "68d9e6683750e3e180b4caf25edf95c5b921176c521d71e8def3dbfc571aee94", "raw_bytes_published": false},
+  "calls": [
+    {"address": "0x080007E6", "target": "0x081C7AA4", "name": "indirect hblank callback trampoline"},
+    {"address": "0x08000816", "target": "0x081C096C", "name": "m4aSoundVSync"},
+    {"address": "0x0800084E", "target": "0x081C7AA4", "name": "indirect serial callback trampoline"}
+  ],
+  "literal_addresses": {"gMain": "0x03003130", "sVcountAtIntr": "0x03003DC0", "REG_VCOUNT": "0x04000006", "INTR_CHECK": "0x03007FF8"},
+  "proven_offsets": {"hblankCallback": 16, "serialCallback": 24, "intrCheck": 28},
+  "interrupt_flags": {"HBLANK": "0x0002", "VCOUNT": "0x0004", "SERIAL": "0x0080"},
+  "naming_basis": {"repository": "pret/pokefirered", "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14", "path": "src/main.c", "raw_rom_bytes_published": false}
+}
+
