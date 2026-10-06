@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "leafgreen-jp-main-callbacks-reconstruction",
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "outputs": [
+    {
+      "path": "src/main_callbacks.c",
+      "sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d"
+    },
+    {
+      "path": "analysis/main-callbacks-map.json",
+      "sha256": "f0830e162c65ab2863d34012ca60cba14484242bd77cce142a22c630d5239481"
+    },
+    {
+      "path": "research/main-callbacks-reconstruction.md",
+      "sha256": "96262a140cece49b646c31b14151e008db1ceb6b2f6a39c47d2b0face8b21849"
+    }
+  ],
+  "verification": {
+    "test": "tests/test_main_callbacks_reconstruction.py",
+    "function_range_hashes": "analysis/main-callbacks-map.json",
+    "raw_rom_bytes_published": false
+  }
+}

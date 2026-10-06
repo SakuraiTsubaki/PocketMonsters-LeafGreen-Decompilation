@@ -1,1 +1,46 @@
-{"schema_version":1,"target":{"release":"BPGJ-rev0","sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},"source":"src/main_callbacks.c","functions":[{"name":"UpdateLinkAndCallCallbacks","address":134218928,"range_end_exclusive":134218948},{"name":"InitMainCallbacks","address":134218948,"range_end_exclusive":134218996},{"name":"CallCallbacks","address":134219024,"range_end_exclusive":134219072,"indirect_dispatches":2},{"name":"SetMainCallback2","address":134219076,"range_end_exclusive":134219092}],"proven_offsets":{"gMain.callback1":0,"gMain.callback2":4,"gMain.state":1080},"naming_basis":{"repository":"pret/pokefirered","path":"src/main.c","match_kind":"control-flow, literal-address and data-access equivalence","raw_rom_bytes_published":false}}
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "source": "src/main_callbacks.c",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": 134218928,
+      "range_end_exclusive": 134218948,
+      "bytes_sha256": "7062be8a681065f42cb094335f260b25a9ac1964bdcfdc870670066f6af85f12"
+    },
+    {
+      "name": "InitMainCallbacks",
+      "address": 134218948,
+      "range_end_exclusive": 134218996,
+      "bytes_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+    },
+    {
+      "name": "CallCallbacks",
+      "address": 134219024,
+      "range_end_exclusive": 134219072,
+      "indirect_dispatches": 2,
+      "bytes_sha256": "d62e08dc36640bcc5845d9c47df51cf4f0499a68cca8cafbf1d976625e36caee"
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": 134219076,
+      "range_end_exclusive": 134219092,
+      "bytes_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+    }
+  ],
+  "proven_offsets": {
+    "gMain.callback1": 0,
+    "gMain.callback2": 4,
+    "gMain.state": 1080
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "path": "src/main.c",
+    "match_kind": "control-flow, literal-address and data-access equivalence",
+    "raw_rom_bytes_published": false
+  }
+}
