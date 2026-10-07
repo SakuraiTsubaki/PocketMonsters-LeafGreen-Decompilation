@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "function": "EnableVCountIntrAtLine150",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/enable_vcount_intr_at_line150.c",
+      "sha256": "1d73acf2c4f05c7320eb4798317d31bfa9710828ef6d39cbc324f65b8e59d96c"
+    },
+    {
+      "path": "analysis/leafgreen-jp-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "e679102d0d2d3b7de8271d1cc0ba9a591db5b40ae8fff6d006b0a2824cca0e53"
+    },
+    {
+      "path": "analysis/leafgreen-jp-enable-vcount-intr-at-line150-map.json",
+      "sha256": "97a584f518f1d3e59ec088d9a91d2a1b4f05c7fa9849aec5f15ca30d4b2d31f8"
+    },
+    {
+      "path": "research/enable-vcount-intr-at-line150-reconstruction.md",
+      "sha256": "a752a8789a446542432ed6b6644f87132691b418b35c536bc9d59ff942088a47"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+

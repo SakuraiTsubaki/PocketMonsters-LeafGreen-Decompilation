@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "source": "src/enable_vcount_intr_at_line150.c",
+  "function": {
+    "name": "EnableVCountIntrAtLine150",
+    "address": "0x08000598",
+    "range_end_exclusive": "0x080005C0",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 1432,
+    "end_offset_exclusive": 1472,
+    "sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+    "raw_bytes_published": false
+  },
+  "calls": [
+    {
+      "address": "0x0800059C",
+      "target": "0x08000AC4",
+      "name": "GetGpuReg"
+    },
+    {
+      "address": "0x080005B2",
+      "target": "0x08000A38",
+      "name": "SetGpuReg"
+    },
+    {
+      "address": "0x080005B8",
+      "target": "0x08000B68",
+      "name": "EnableInterrupts"
+    }
+  ],
+  "behavior": {
+    "register": "DISPSTAT",
+    "preserved_mask": "0x00FF",
+    "vcount_compare_line": 150,
+    "vcount_interrupt_enabled": true,
+    "interrupt_flag": "0x0004"
+  },
+  "cfg": "analysis/leafgreen-jp-enable-vcount-intr-at-line150-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "call order, constants and data flow",
+    "raw_rom_bytes_published": false
+  }
+}
+
