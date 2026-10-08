@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "function": "InitMapMusic",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/init_map_music.c",
+      "sha256": "a77e2d4b7e6f31022d0f181e7406bfe6a0196c1238d881d0c944fd431056b2be"
+    },
+    {
+      "path": "analysis/leafgreen-jp-init-map-music-cfg.json",
+      "sha256": "9d7e9c5bbeb6d08daad569e8401ac8d177677073fbcea20c447fc27bc666dbc9"
+    },
+    {
+      "path": "analysis/leafgreen-jp-init-map-music-map.json",
+      "sha256": "e45bb03653a3990adacacedb93f82fbcc50d2fb8ef1753505d0dd8842f6571e7"
+    },
+    {
+      "path": "research/init-map-music-reconstruction.md",
+      "sha256": "183b19530f471f75cb92e77225525fbf61e2295538580c0d3b28d45b0d4eaa89"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
