@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "function": "PlayTimeCounter_Update",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e"
+    },
+    {
+      "path": "analysis/leafgreen-jp-play-time-counter-update-cfg.json",
+      "sha256": "7a4f791cc71c92fb47e4a72a065087438fa3a9352d0bdf0adbb5823131b3d502"
+    },
+    {
+      "path": "analysis/leafgreen-jp-play-time-counter-update-map.json",
+      "sha256": "43ab700586b30da9bacce2ce90707d4645ab906c8b7a9b9d8246e2ba4cf0adaf"
+    },
+    {
+      "path": "research/play-time-counter-update-reconstruction.md",
+      "sha256": "704529644485e7771f05688129cac2aade57164b7eca1491967f557968ce0a73"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
