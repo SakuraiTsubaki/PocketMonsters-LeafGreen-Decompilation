@@ -13,7 +13,7 @@
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e"
+      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
     },
     {
       "path": "analysis/leafgreen-jp-play-time-counter-update-cfg.json",
@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/leafgreen-jp-play-time-counter-update-map.json",
-      "sha256": "43ab700586b30da9bacce2ce90707d4645ab906c8b7a9b9d8246e2ba4cf0adaf"
+      "sha256": "e6bca8cd9c39c5e9d33acb108f0e3caf3db7125d4d1fbf80c7bca6630a21f2e1"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-
