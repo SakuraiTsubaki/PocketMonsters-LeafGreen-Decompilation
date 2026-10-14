@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "functions": [
+    "SetTrainerId",
+    "CopyTrainerId"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_evidence.py",
+    "tool_sha256": "0bf739244be88d5fd9b18ca8412a7bfacbdcaeeaff9f5db7612522b22324a9ad"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "cdbf58c8ad0981179b2aa137af3c1159259310d8ae9b8d6ed207b0c61148089a"
+    },
+    {
+      "path": "analysis/leafgreen-jp-set-trainer-id-cfg.json",
+      "sha256": "98c3b1577b734df1947575bb43543bcb15d5e6ba50724fae2fc4c1ee0b2a749e"
+    },
+    {
+      "path": "analysis/leafgreen-jp-copy-trainer-id-cfg.json",
+      "sha256": "e6be900543f0c4968781f74744306a54f86821070be7542d70a864967aa60a99"
+    },
+    {
+      "path": "analysis/leafgreen-jp-trainer-id-helpers-map.json",
+      "sha256": "923c35796edc7b33745d6aba7fa70eb3496baa0881f4ceab260907771f61e75b"
+    },
+    {
+      "path": "research/trainer-id-helpers-reconstruction.md",
+      "sha256": "773364c4a58a160613bd40897bedd6ad8b36b5d5716de1a10b0a08823d3d2bb9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
