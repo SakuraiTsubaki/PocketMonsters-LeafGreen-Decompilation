@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/build_rng_catalog_evidence.py",
+    "tool_sha256": "72af44ce3a8ee14fc14808966b9e9059bd0b7dbc7db93fe58761265a9b0b8c46"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rng-map.json",
+      "sha256": "2a8b8dfa614c3a604bd603cd049e1062cd3c08d65e66e30f9b700b02465b9fb8"
+    },
+    {
+      "path": "analysis/leafgreen-jp-random-cfg.json",
+      "sha256": "f72adeae835cba78c009e45e1ae78d14b776caf2795813a9f1b1a361b259922d"
+    },
+    {
+      "path": "analysis/leafgreen-jp-seed-rng-cfg.json",
+      "sha256": "e720a078768e1ecb170e41a8d71dbcf31d1b169e8438e4a4e4691f8e272b27ae"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-rng-map.json",
+      "sha256": "625640bce45275f5d7b4f739f1a998e1745c29efe0ea25e1418c2ce07ccbaf30"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-random-cfg.json",
+      "sha256": "b35bae4fbcc5abf458eda19b4731858fb952a8dc9b8ba0fefd7825231296c698"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-seed-rng-cfg.json",
+      "sha256": "167297ab121b963a75b73eac2580fc875356ef0e77dd8e0e12ecf6993cdf6efc"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-rng-map.json",
+      "sha256": "663fa33e4dbd1d06cb34208c043f63ff92bb21e43d6b57785c5d5304b02affe4"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-random-cfg.json",
+      "sha256": "29264d01e1ed742b862372a0c2a54632d8937c2b67aa0e08e3c38b306b85c15c"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-seed-rng-cfg.json",
+      "sha256": "a111ea1cf84746c460e3788d87e5a402a413905d99823e652a5de4f90f64df09"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-rng-map.json",
+      "sha256": "bc3594f0aa86299784f847b1077dce3e2e2d07b990c794e64a284f0e31d2cc22"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-random-cfg.json",
+      "sha256": "9fbfddbdd5520c1085a0c70e26db85d209b6ef36d5979ddce8c5e6490365219d"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-seed-rng-cfg.json",
+      "sha256": "2b9e29840f1ba2d8f989851cf07f30da90aa46c680adda3dcb20c6ccb2cbd849"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-rng-map.json",
+      "sha256": "bae07ab35005417e0385fb62ad19c58c1042471600e19f5692be6bdfb7764d7f"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-random-cfg.json",
+      "sha256": "d6a0c7e12555bd7a84de68e69a5109b3ec5414d613d3251dbb44c99abded6c3b"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-seed-rng-cfg.json",
+      "sha256": "05019d9648c54b47d90456bb50f565f55532fc69f6140482301cce8d42ceed86"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-rng-map.json",
+      "sha256": "19d229cef9712c9a71d7c464babf51b43e3ece98de9646cea45b85c3458e77ae"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-random-cfg.json",
+      "sha256": "b7e7d68897c054b14c88b3841b84cc3496a1f0a7b6a8ecb6d5f5c7c86742cc3c"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-seed-rng-cfg.json",
+      "sha256": "54c891b80a7961afdc55cfe73d35d5fbda8290015c57dbb53a109ea1756008cf"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-rng-map.json",
+      "sha256": "5b85a8b355b3d8ed79915b23c31c75dd9055e759adca5b44291b427992fb8f65"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-random-cfg.json",
+      "sha256": "9cdf18b954b1c469d42e95c94277ce7d8973d12286c0236bc6b553efd5055490"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-seed-rng-cfg.json",
+      "sha256": "1a5586d4b472d73ac3ce7faa0411b7690e861248809a83c1c68757b8cd03279a"
+    },
+    {
+      "path": "analysis/rng-catalog-summary.json",
+      "sha256": "ab8ee2fdc9ecd8520183eabb7541a0c6029b887bad6193427dc9a56134b2e939"
+    },
+    {
+      "path": "research/rng-catalog-reconstruction.md",
+      "sha256": "0225f55a5c059b1750d9cbba1af53e41d88da5637849d826e2895e6718c79176"
+    },
+    {
+      "path": "tests/test_rng_catalog_reconstruction.py",
+      "sha256": "ff104b7a606b64fb5efb45bb69356ff85e488ade880f3f5617366a68a080ad10"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
