@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_evidence.py",
+    "tool_sha256": "d9f9b2fcb21f66910714eaf4cbe1aa36f6714ab11dd9c833926fa392a6cf2254"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/leafgreen-jp-random-cfg.json",
+      "sha256": "f72adeae835cba78c009e45e1ae78d14b776caf2795813a9f1b1a361b259922d"
+    },
+    {
+      "path": "analysis/leafgreen-jp-seed-rng-cfg.json",
+      "sha256": "e720a078768e1ecb170e41a8d71dbcf31d1b169e8438e4a4e4691f8e272b27ae"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rng-map.json",
+      "sha256": "2a8b8dfa614c3a604bd603cd049e1062cd3c08d65e66e30f9b700b02465b9fb8"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "ffedd4edd83447aa8e1c9d5b8ecb260d1814393fb6d365ad4c714507cd913bbf"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "e8030b5b9b255a864f6ee05a049eebec4aa0f0148ee258d74f8b7c33e87df03a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

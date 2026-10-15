@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "variant": "standard",
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]"
+  },
+  "globals": {
+    "gRngValue": "0x03005040"
+  },
+  "functions": {
+    "Random": {
+      "address": "0x0804448C",
+      "range_end_exclusive": "0x0804449E",
+      "rom_code_range": {
+        "start_offset": 279692,
+        "end_offset_exclusive": 279710,
+        "length": 18,
+        "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+        "raw_bytes_published": false
+      }
+    },
+    "SeedRng": {
+      "address": "0x080444AC",
+      "range_end_exclusive": "0x080444B6",
+      "rom_code_range": {
+        "start_offset": 279724,
+        "end_offset_exclusive": 279734,
+        "length": 10,
+        "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+        "raw_bytes_published": false
+      }
+    }
+  },
+  "raw_rom_bytes_included": false,
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/random.c",
+    "raw_rom_bytes_published": false
+  }
+}
