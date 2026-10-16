@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "origin_reference": "Japanese",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_matrix_evidence.py",
+    "tool_sha256": "299f4bbf557afb9ff052ce1792eec0da4495f1738c7f8188e45ec25f119d5d7f"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "cdbf58c8ad0981179b2aa137af3c1159259310d8ae9b8d6ed207b0c61148089a"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/leafgreen-jp-trainer-id-helpers-map.json",
+      "sha256": "923c35796edc7b33745d6aba7fa70eb3496baa0881f4ceab260907771f61e75b"
+    },
+    {
+      "path": "analysis/leafgreen-jp-set-trainer-id-cfg.json",
+      "sha256": "98c3b1577b734df1947575bb43543bcb15d5e6ba50724fae2fc4c1ee0b2a749e"
+    },
+    {
+      "path": "analysis/leafgreen-jp-copy-trainer-id-cfg.json",
+      "sha256": "e6be900543f0c4968781f74744306a54f86821070be7542d70a864967aa60a99"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-trainer-id-map.json",
+      "sha256": "51fe303fc3fceeacaeaa3784916883ae871f35585c9c4b0dc99766ba9eef92cd"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "b1c817d85cd3db06a9fa5531b7017fa3fb938e6f80c5673b0ade2bbee7f0d2cc"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "0baedd1b866cd4aa918d15545231de7b6a6d6a306ed3e8682020b326dde0ef02"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-trainer-id-map.json",
+      "sha256": "3b16966e99f32cb5a14ab3ac4b4866ad31adff48a30389dbefa0a60e59b70c3b"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-set-trainer-id-cfg.json",
+      "sha256": "8517316948f94a398c4a7726505e7a6d3b33c5c88b15b3e1efb31bd835837d3b"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-copy-trainer-id-cfg.json",
+      "sha256": "7357b0dba7122d21b4fd06bdfddba7303fb29eb648abbe502d7a23248f50d74b"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-trainer-id-map.json",
+      "sha256": "f78a214422e36ad1e239132a31f7ea075bcef104cae0582dbad63215b912d9f0"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "a7a74aae96413b032917cf7a819af86db314eeefde603ad14376431386e6d79f"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "d08e80220b8d1cd63f77919a7cb5be6398af00b161f4cc9cafa0726531614fb4"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-trainer-id-map.json",
+      "sha256": "e4d35d61c80b35327a67a750c4f39cc3628ef17926af897d7056cbe5b0498d22"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "6843fcf47cbcde6fc39e8269f20e80ddd0cbcc187b31df2a05335a48505ec5ee"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "3937bff4b28c2b7ffe586afd92ab2b2a21f1ec7f978c508546d7499940bbf7a5"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-trainer-id-map.json",
+      "sha256": "ade274f36fe69d9d284f9f5b59575c25a65563fae26d5c486e42e238ed6bd218"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "169ff47085d4267cfdb60be17c8883bca602591c4cecdde41d1c35116db29baa"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "63891a07b4d01b594bd10fc2cd5e18c623c345e4079c66bbf43ecf09afee16af"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-trainer-id-map.json",
+      "sha256": "a951b116ffbc0126f4d6da70d99a1f662b4d3ed3a3051504e319a86b4ff74f1a"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "d0025b8c18b327a52e0500761062f764dca46ff891c42fd60982812761f09da3"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "7c60f4215a28a3a3e0006439b196be780de16447d1d902371d23e42e3e57efc5"
+    },
+    {
+      "path": "analysis/trainer-id-catalog-summary.json",
+      "sha256": "70996eb796d180947bfca21155920a166ed36901d0df9bdc9f0b35f17228fb24"
+    },
+    {
+      "path": "research/trainer-id-catalog-reconstruction.md",
+      "sha256": "30dcb6f5755cefdbe11f81572573d3e0c07672bb31a065c01537c8feb177f882"
+    },
+    {
+      "path": "tests/test_trainer_id_catalog_reconstruction.py",
+      "sha256": "d26735557091e386b8f422e653ba656a08983ea256b759286e1737ecfafca833"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

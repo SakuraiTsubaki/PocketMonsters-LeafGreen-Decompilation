@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 346604,
+  "start_address": 134564332,
+  "scan_limit_address": 134564360,
+  "instruction_halfwords": 14,
+  "range_start": 134564332,
+  "range_end": 134564360,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134564332,
+      "kind": "other"
+    },
+    {
+      "address": 134564334,
+      "kind": "other"
+    },
+    {
+      "address": 134564336,
+      "kind": "other"
+    },
+    {
+      "address": 134564338,
+      "kind": "other"
+    },
+    {
+      "address": 134564340,
+      "kind": "other"
+    },
+    {
+      "address": 134564342,
+      "kind": "other"
+    },
+    {
+      "address": 134564344,
+      "kind": "other"
+    },
+    {
+      "address": 134564346,
+      "kind": "other"
+    },
+    {
+      "address": 134564348,
+      "kind": "other"
+    },
+    {
+      "address": 134564350,
+      "kind": "other"
+    },
+    {
+      "address": 134564352,
+      "kind": "conditional-branch",
+      "target": 134564340
+    },
+    {
+      "address": 134564354,
+      "kind": "other"
+    },
+    {
+      "address": 134564356,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134564358,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [
+    {
+      "source": 134564352,
+      "target": 134564340,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134564352,
+      "target": 134564354,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [],
+  "returns": [
+    134564358
+  ],
+  "raw_halfwords_omitted": true,
+  "source_size": 16777216,
+  "source_sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3"
+}
