@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "source": "src/wait_for_vblank.c",
+  "source_sha256": "22c0f2afdb4dc5fe2798f401e89e32860dc40da3d9f4363d6e179969ada39abf",
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x080008A0",
+    "range_end_exclusive": "0x080008C8",
+    "rom_code_range": {
+      "start_offset": 2208,
+      "end_offset_exclusive": 2248,
+      "length": 40,
+      "sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpg-i-rev0-retail-wait-for-vblank-cfg.json"
+  },
+  "literal_addresses": {
+    "gMain": "0x03003040",
+    "gMain_pointer": "0x080008C8",
+    "clear_mask": "0x080008CC"
+  },
+  "state": {
+    "intrCheck_offset": 28,
+    "cleared_mask": 1
+  },
+  "wait": {
+    "mode": "volatile-poll",
+    "call": null
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/main.c",
+    "match_kind": "Thumb data access, control flow, literals, and wait behavior",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "function": "WaitForVBlank",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/wait_for_vblank_catalog.py",
+    "tool_sha256": "7b24532de6cced1166ae9962530aa3bee786e1e45b6e790b4e275ac08ef2b4ed"
+  },
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "22c0f2afdb4dc5fe2798f401e89e32860dc40da3d9f4363d6e179969ada39abf"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "63ce1ff18d19819cfa3b50e4089ddcfa619612564f1205b14e358ae0378f4085"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "a09fff720103ec941a0c9b6360b10fcf8c39b2b6e2eef1d67062476fe41b0d6e"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "49e8d55dae471b67851debe9163a01d0f8636516d6304d0dbdda719df57af27d"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "aadc4bc814493e29973ff133a93c55da55af8285e4c400e24e6a53222825b57c"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "12c22eafcec86df041338476426b41888b50a61936abdb834b372b165ca08d35"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "3d75ab0deb1daa788cd2af9b7b94cd92997771a185df1fcc364940802e20f587"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "64040b45f72edee813c53ff08904736cb8aebe5991d7d52e775ff6ed94809836"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "fc8c398f438148f1e05ab8aa5d9ed39cd6c82fad875dd9fa6baf89986144ec58"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "3db7cc155153ab4bd0215bfd693f5ba19b464b92a98c56b49596f83d588e29b2"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "48890a62f1e4b9647e78e8ffdee7e8026ffc26e214e73409842d4519a03bfdb6"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "f54cc9a1aa28fed78284bd781218021436886801abf66f1807afb5b1590cadc4"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "24712a510c5ec5aaaa00c0b983dce0e48d5ad04617e978a97db96246247ab2c5"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "4cce94738e38999f6ada403d3adb806536a5affc8a583d5516a135b813e6cb9d"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "3b6f3827044860ea8e672d679e37cbbfc8ab64758fc98decbb14e44163b64892"
+    },
+    {
+      "path": "analysis/leafgreen-jp-wait-for-vblank-map.json",
+      "sha256": "107f56dea04237b6fa73a2b645340f882fcae91a20dca865cf1ef177df3a0b2c"
+    },
+    {
+      "path": "manifests/wait-for-vblank-reconstruction.json",
+      "sha256": "4998990aadbe7cc00450250b11e368968fafaa354f8da9c327cbe2a7aa5edbc1"
+    },
+    {
+      "path": "analysis/wait-for-vblank-catalog-summary.json",
+      "sha256": "11738909ed9c0510fcc8f92f55b879af266cb64b8f6643217137ec79d9bf8f45"
+    },
+    {
+      "path": "research/wait-for-vblank-global-reconstruction.md",
+      "sha256": "9e830937dcb269c096127bd84ae37e1bcd5888aedc65994f1a1b6db1826518d8"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_catalog.py",
+      "sha256": "11b3714c24ada72718b72eae02a318d4b093609a69514c2ce2d58b7ffab43c7e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

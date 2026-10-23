@@ -16,7 +16,7 @@
     },
     {
       "path": "analysis/leafgreen-jp-wait-for-vblank-map.json",
-      "sha256": "2d7edbebdc3d48c7e798ff2ab022ac387d5aec1152308d4b1d24b253d4ad26cf"
+      "sha256": "107f56dea04237b6fa73a2b645340f882fcae91a20dca865cf1ef177df3a0b2c"
     },
     {
       "path": "research/wait-for-vblank-reconstruction.md",
@@ -25,4 +25,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-
