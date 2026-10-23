@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "function": "ClearPokemonCrySongs",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/clear_cry_songs_evidence.py",
+    "tool_sha256": "85cb96bee5f9852c06c5c9f988f3a6e20ed69975bbd07c982b3ce2c4a6eabac1"
+  },
+  "outputs": [
+    {
+      "path": "src/clear_pokemon_cry_songs.c",
+      "sha256": "2d8b32a5c1a29d8a117a50c095eb3cb9d92e2e08b8c881b09c0cac075f840ad4"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "764c86894ebf5050a75e596c3e19bbac8f59ca11e6be8309c0c300c066dec126"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "8f242ba73c26e23d481472f16283292a76655ade985a4369ba0cd98e0ff61182"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "b2616a613d8714e54d782ebfc8750e47f777a41ee6ebbc4b41068cba897c1fb3"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "81a505921263d9c84600f3a4870054a909bc23fa2e851ba33eac65e01e0ed9ce"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "dcdce1a02b612b95fb2cc9835a2b53a9f65368d718efb1e60b60ec88f0e429b8"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "0a0f1173d78fbe75361876663a123a91749bedd6c2ad92b282c7c579cb11576f"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "06b99601635eb25ed0623170c26cfef9c032783a41b8a2136bdee761d627556e"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "b4faa39cb99282a65043783b2e6e2dff4aa39dab9499fe50673acfd185c54c60"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "4c658f05fdfcd00099ef0ace569bbcc492644efde7a21672effa837e53f9bc67"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "b6e825c68307cd79d4e573560ded5fed959812e6520f5851d0d3c07cab727600"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "bb158c4000d2a1d4096123bbf0115d06bac5cdba896ab03518fffed26c79cae8"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "e227c09b1d3676314b7d2f9b25fd7ccaaac83dbeee91572b403b2f39167a75bb"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-clear-pokemon-cry-songs-cfg.json",
+      "sha256": "ebeb01447103124f378e84365e53649260384a66374339727571f6b560bda8ac"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-clear-pokemon-cry-songs-map.json",
+      "sha256": "35e98ea0b4a7be121de7d70c484c1dde42f29dc81c5acfd11d643bef513bbc53"
+    },
+    {
+      "path": "analysis/clear-pokemon-cry-songs-summary.json",
+      "sha256": "716b0b6a3850cfc86a79ef81f28cf1c13c8916c6b991962d6e9b8ef395063fc0"
+    },
+    {
+      "path": "research/clear-pokemon-cry-songs-reconstruction.md",
+      "sha256": "a81a7230ce8ce88f157e2183f5bfa90cffe8bfd1f6ec593ef0dd0b775cb99edd"
+    },
+    {
+      "path": "tests/test_clear_pokemon_cry_songs_reconstruction.py",
+      "sha256": "ec0cf44420a091706c0d08769a6f6e99b1ee1ed8a5ef7df2f022af9b07be7dc6"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

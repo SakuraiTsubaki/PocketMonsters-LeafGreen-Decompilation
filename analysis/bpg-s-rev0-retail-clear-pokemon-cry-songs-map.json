@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-s-rev0-retail",
+    "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48"
+  },
+  "source": "src/clear_pokemon_cry_songs.c",
+  "source_sha256": "2d8b32a5c1a29d8a117a50c095eb3cb9d92e2e08b8c881b09c0cac075f840ad4",
+  "function": {
+    "name": "ClearPokemonCrySongs",
+    "address": "0x08000940",
+    "range_end_exclusive": "0x0800095A",
+    "rom_code_range": {
+      "start_offset": 2368,
+      "end_offset_exclusive": 2394,
+      "length": 26,
+      "sha256": "062aee24015143e22563ff08526f16ac086c01ba4bc404ed89a749bde313e979",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpg-s-rev0-retail-clear-pokemon-cry-songs-cfg.json"
+  },
+  "call": {
+    "name": "CpuSet",
+    "target": "0x081E32C4"
+  },
+  "state": {
+    "gPokemonCrySongs": "0x03006DF0",
+    "byte_count": 104
+  },
+  "behavior": {
+    "fill_value": 0,
+    "unit": "halfword",
+    "halfword_count": 52,
+    "source_fixed": true,
+    "cpu_set_mode": "0x01000034"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/main.c",
+    "match_kind": "Thumb control flow, CpuSet mode, destination class, and clear size",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
