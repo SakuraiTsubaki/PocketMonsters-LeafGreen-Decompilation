@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-e-rev1-retail",
+    "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825"
+  },
+  "source": "src/main_callbacks.c",
+  "source_sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d",
+  "function": {
+    "name": "SetMainCallback2",
+    "address": "0x08000558",
+    "range_end_exclusive": "0x08000568",
+    "compiler_variant": "inline-state-offset",
+    "rom_code_range": {
+      "start_offset": 1368,
+      "end_offset_exclusive": 1384,
+      "length": 16,
+      "sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpg-e-rev1-retail-set-main-callback2-cfg.json"
+  },
+  "state": {
+    "gMain": "0x030030F0",
+    "callback2_offset": 4,
+    "state_offset": 1080,
+    "state_value": 0
+  },
+  "behavior": [
+    "store callback argument in gMain.callback2",
+    "clear gMain.state",
+    "return without calls"
+  ],
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/main.c",
+    "match_kind": "Thumb data-access and leaf-control-flow equivalence",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
