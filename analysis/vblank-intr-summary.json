@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "function": "VBlankIntr",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/vblank_intr.c",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "profile": "frlg",
+      "address": "0x08000724",
+      "code_sha256": "8a8db0df2682e3d57b696cef6131e7beaf395dbe34d9ade4276bb68504c23b23",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800072E",
+          "target": "0x080FCA6C"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x08000740",
+          "target": "0x0800B0F8"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000758",
+          "target": "0x081C7AA4"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x08000762",
+          "target": "0x08000A04"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000766",
+          "target": "0x08000C34"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x0800077A",
+          "target": "0x081C1080"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000784",
+          "target": "0x0800D71C"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000788",
+          "target": "0x0804448C"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x0800078C",
+          "target": "0x080FDF2C"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-j-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-j-rev0-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000724",
+      "code_sha256": "edd54df52235ce35d538d2edceecdc830ff6c68b6331774612c35723734cd731",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800072E",
+          "target": "0x080FBA10"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x08000740",
+          "target": "0x0800B718"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000758",
+          "target": "0x081E3B84"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x08000762",
+          "target": "0x08000A04"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000766",
+          "target": "0x08000C34"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x0800077A",
+          "target": "0x081DD0C4"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000784",
+          "target": "0x0800DD28"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000788",
+          "target": "0x08044EC8"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x0800078C",
+          "target": "0x080FCF0C"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-e-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-e-rev0-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000738",
+      "code_sha256": "0b30eead65c1d6a402797e71dcd0a68d93a0e789a8a63ba0ad84727b88b8ca27",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x08000742",
+          "target": "0x080FBA88"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x08000754",
+          "target": "0x0800B72C"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x0800076C",
+          "target": "0x081E3BF4"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x08000776",
+          "target": "0x08000A18"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x0800077A",
+          "target": "0x08000C48"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x0800078E",
+          "target": "0x081DD134"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000798",
+          "target": "0x0800DD3C"
+        },
+        {
+          "name": "Random",
+          "source": "0x0800079C",
+          "target": "0x08044EDC"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x080007A0",
+          "target": "0x080FCF84"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-e-rev1-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-e-rev1-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000734",
+      "code_sha256": "0f7c0a898a868ed203d86886087d3f4b4bf7b5f77456bcc3fd95c4fe1a1ac36a",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800073E",
+          "target": "0x080FBC64"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x08000750",
+          "target": "0x0800B698"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000768",
+          "target": "0x081E7A6C"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x08000772",
+          "target": "0x08000A14"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000776",
+          "target": "0x08000C44"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x0800078A",
+          "target": "0x081E135C"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000794",
+          "target": "0x0800DCAC"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000798",
+          "target": "0x08044DCC"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x0800079C",
+          "target": "0x080FD160"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-d-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-d-rev0-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000720",
+      "code_sha256": "a02924501b231b32708f4db652146a2471a48b0accf4daffb938b50001a9fe29",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800072A",
+          "target": "0x080FBD24"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x0800073C",
+          "target": "0x0800B684"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000754",
+          "target": "0x081E1FA8"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x0800075E",
+          "target": "0x08000A00"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000762",
+          "target": "0x08000C30"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x08000776",
+          "target": "0x081DB898"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000780",
+          "target": "0x0800DC98"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000784",
+          "target": "0x08044E8C"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x08000788",
+          "target": "0x080FD220"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-f-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-f-rev0-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000734",
+      "code_sha256": "ed78fdb7539ddf616fe50a4ab2e2b9b133f0028d73b88de2d851b0b8d285f1b8",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800073E",
+          "target": "0x080FBC64"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x08000750",
+          "target": "0x0800B698"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000768",
+          "target": "0x081E0C40"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x08000772",
+          "target": "0x08000A14"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000776",
+          "target": "0x08000C44"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x0800078A",
+          "target": "0x081DA530"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000794",
+          "target": "0x0800DCAC"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000798",
+          "target": "0x08044DB8"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x0800079C",
+          "target": "0x080FD160"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-i-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-i-rev0-retail-interrupt-init-map.json"
+      }
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "profile": "frlg",
+      "address": "0x08000720",
+      "code_sha256": "b458dabe12bbad42b6b575f75cacddab9f132eacac246b3e6f154b5830aa80b5",
+      "calls": [
+        {
+          "name": "RfuVSync",
+          "source": "0x0800072A",
+          "target": "0x080FBD4C"
+        },
+        {
+          "name": "LinkVSync",
+          "source": "0x0800073C",
+          "target": "0x0800B684"
+        },
+        {
+          "name": "indirect callback trampoline",
+          "source": "0x08000754",
+          "target": "0x081E3308"
+        },
+        {
+          "name": "CopyBufferedValuesToGpuRegs",
+          "source": "0x0800075E",
+          "target": "0x08000A00"
+        },
+        {
+          "name": "ProcessDma3Requests",
+          "source": "0x08000762",
+          "target": "0x08000C30"
+        },
+        {
+          "name": "m4aSoundMain",
+          "source": "0x08000776",
+          "target": "0x081DCBF8"
+        },
+        {
+          "name": "TryReceiveLinkBattleData",
+          "source": "0x08000780",
+          "target": "0x0800DC98"
+        },
+        {
+          "name": "Random",
+          "source": "0x08000784",
+          "target": "0x08044EA0"
+        },
+        {
+          "name": "UpdateWirelessStatusIndicatorSprite",
+          "source": "0x08000788",
+          "target": "0x080FD248"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-s-rev0-retail-vblank-intr-map.json",
+        "interrupt_init": "analysis/bpg-s-rev0-retail-interrupt-init-map.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

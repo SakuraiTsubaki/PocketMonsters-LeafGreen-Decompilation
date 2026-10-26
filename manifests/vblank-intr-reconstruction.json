@@ -1,12 +1,64 @@
 {
   "schema_version": 1,
-  "target": {"release": "BPGJ-rev0", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
+  "game": "LeafGreen",
   "function": "VBlankIntr",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_catalog.py",
+    "tool_sha256": "b432995737f5b4d44d4f2d57385166aed952411e2f1165aeb49f691ee5795b11"
+  },
   "outputs": [
-    {"path": "src/vblank_intr.c", "sha256": "4f8b70f0203af2c154d33f15be3b100ddfa6a8a698785cfd8e8ea70cd523a207"},
-    {"path": "analysis/leafgreen-jp-vblank-intr-map.json", "sha256": "1cf56776c29c155e786f654306a28dfbefa19e19d565302be2c8784a940faa1a"},
-    {"path": "research/vblank-intr-reconstruction.md", "sha256": "64febf82645a5244f047bc8f53ae91d1da81b3ba42a03c4bd18cdb2adbf7cb33"}
+    {
+      "path": "src/vblank_intr.c",
+      "sha256": "a9eb303ddce0e34c24495819dcb36adf9bc0e21dd947b4b8d0d0388099526699"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-vblank-intr-map.json",
+      "sha256": "f29daf98f7e20eb292b19931e131933646051ffbcf330e582a451415b4d7d43d"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-vblank-intr-map.json",
+      "sha256": "0dc17b806cc9c76f41b8add21f664b441c5e9287fb79b845df5339026b883aa7"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-vblank-intr-map.json",
+      "sha256": "5be5b1e90f45473e24b3a9bf11bf77a7428d98ab231cca7a8b5bafe83e898782"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-vblank-intr-map.json",
+      "sha256": "deb0883b7bc4112a8f98f52dd176e2102f5bba5a88f22e466880f52aba8e8c91"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-vblank-intr-map.json",
+      "sha256": "0f2816770b1137800f17e38ed933826a0343fa70982c28320525c1321d6184f1"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-vblank-intr-map.json",
+      "sha256": "5144b81d873468c63c04f35999945dbaf8a66e38b470be8bdb70d87968bf78c6"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-vblank-intr-map.json",
+      "sha256": "5c038dfa5fee1cc18e5fb333fba0eafe6d6b8c9f965e2d421bda91d16af244a9"
+    },
+    {
+      "path": "analysis/vblank-intr-summary.json",
+      "sha256": "64e3a08a6fb94da38e7d45a43df193a0e674a157abb9ecc853ba0779dd491306"
+    },
+    {
+      "path": "research/vblank-intr-reconstruction.md",
+      "sha256": "99128bfd17314656d78e63397f137fcbc5cdc86bb2718b7247a49965151ace7b"
+    },
+    {
+      "path": "tests/test_vblank_intr_reconstruction.py",
+      "sha256": "3708adc61b6d63cf6f1a5bde94d6561733cb2f04b319867726ed248feb6b5054"
+    }
   ],
   "raw_rom_bytes_included": false
 }
-

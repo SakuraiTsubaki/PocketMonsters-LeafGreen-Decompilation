@@ -1,15 +1,5 @@
-# BPGJ revision 0 VBlank interrupt
+# LeafGreen VBlankIntr reconstruction
 
-The Japanese LeafGreen handler at `0x08000724` selects wireless or wired-link
-VSync, increments the optional counter through the pointer stored at
-`gMain+0x20`, dispatches the VBlank callback, and advances the scalar counter
-at `gMain+0x24`. It then flushes buffered GPU and DMA3 work and mirrors the
-sound engine's PCM DMA counter.
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) have a VBlank handler immediately after the verified serial callback setter and match the `frlg` control-flow profile. Wireless sync and VCOUNT samples around m4aSoundMain are retained.
 
-This retail revision records `REG_VCOUNT` immediately before and after
-`m4aSoundMain`; both byte stores are present in the ROM and are retained here.
-Link-battle receive, RNG, wireless-indicator update, and both VBlank
-acknowledgments follow. The analysis map records the exact Japanese call
-targets, globals, structure offsets, and range hash without publishing ROM
-instruction bytes.
-
+Per-release maps preserve code hashes, call targets, validated state addresses and the dependency hash for interrupt initialization. CFG evidence omits raw halfwords and no ROM instruction bytes are published. Naming and behavior are corroborated by `pret/pokefirered` at `037335f4c725d7c9aecdac87066f2002b4bd7e14`, `src/main.c`.
