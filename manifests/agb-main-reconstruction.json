@@ -1,11 +1,67 @@
 {
-  "schema_version":1,
-  "id":"leafgreen-jp-agb-main-reconstruction",
-  "input":{"release":"BPGJ-rev0","size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","cfg":"analysis/leafgreen-jp-thumb-entry-cfg.json"},
-  "outputs":[
-    {"path":"analysis/leafgreen-jp-agb-main-map.json","sha256":"ba7e7974b447de7e6473bdbeabdb72594b131f90cd19169411276151f453e3a8"},
-    {"path":"src/main_loop.c","sha256":"b05098cfd0998cc9afe36c14d9515766351a502fbf58b4d406dde04783700a76"},
-    {"path":"research/agb-main-reconstruction.md","sha256":"ce18ec68a8fcaa85a0b1532fb4acc87cba2a7c1db7d09d79e3e17d561e93beb0"}
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "function": "AgbMain",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/agb_main_catalog.py",
+    "tool_sha256": "137cb84a85f83058566206a9fe4ddd54798449fb5dc4f68c38ae0fffc540a80d"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/agb-main-profile.json",
+      "sha256": "401fb1bf58b114ff3b986116e0e30e1b6ceac58e019065af7a3cf02cce06ad07"
+    },
+    {
+      "path": "src/main_loop.c",
+      "sha256": "0f9ccb413f714042fb5cb4c879379788714f398ec5873c6a7ec1173b07a647e4"
+    },
+    {
+      "path": "analysis/agb-main-summary.json",
+      "sha256": "277e1ee3c823b57106529e4760aa04464ba0616d014e85bd7662da775502569a"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-agb-main-map.json",
+      "sha256": "a6d20dc8cff5e60c9cf5bbad9176971012ab0a3cf62d2a60f9f302f87a70d5e0"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-agb-main-map.json",
+      "sha256": "be8ef0ecc7f48ee26d477a06c3ae7edce8d134185ed472fc3bb87a9a8a902557"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-agb-main-map.json",
+      "sha256": "350918cbc2d20605d572b06445f86b74eb24379b5e6de2174b10a6f78d50af18"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-agb-main-map.json",
+      "sha256": "df08ba63dd7990540932c2d13db1d865796ea6fa5d39b4a2ab3b8b383e2fd8d4"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-agb-main-map.json",
+      "sha256": "ef9786bc3260a662208d9c5347ea9a1d36f9b49d1b3bcc239103a44299a6b55a"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-agb-main-map.json",
+      "sha256": "718e7dd7624185b19caf545c2637dbfa9a2697e0217d609b026a9ab121d73cb7"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-agb-main-map.json",
+      "sha256": "47e1cdc70f71a2bf1356b4a9fa3c3136c26fc2b8a0ffb9ce5a4ab0dcc3e414ee"
+    },
+    {
+      "path": "research/agb-main-reconstruction.md",
+      "sha256": "369957fda20e71b85169fa27c3134e7cc0c65117177fb6978d6a250f211dfe9c"
+    },
+    {
+      "path": "tests/test_agb_main_reconstruction.py",
+      "sha256": "2e49ed837fcb463368ba6687dce08ab721cdec7392ceabaef67c8a6cffd9558b"
+    }
   ],
-  "verification":{"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}
+  "raw_rom_bytes_included": false
 }
