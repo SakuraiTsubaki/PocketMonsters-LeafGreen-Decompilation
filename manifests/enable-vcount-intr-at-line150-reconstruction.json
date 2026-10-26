@@ -1,33 +1,91 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPGJ-rev0",
-    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
-  },
+  "game": "Pokemon LeafGreen",
   "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/enable_vcount_intr_evidence.py",
+    "tool_sha256": "854aa045730a4230900665ceedaf92f5da85314d59d5797e0b16b4a3ea980388"
   },
   "outputs": [
     {
       "path": "src/enable_vcount_intr_at_line150.c",
-      "sha256": "1d73acf2c4f05c7320eb4798317d31bfa9710828ef6d39cbc324f65b8e59d96c"
+      "sha256": "cba90e07e4b8862b38d123ac859bcfea424e64a796e9c29bd1119d5c26cc0619"
     },
     {
-      "path": "analysis/leafgreen-jp-enable-vcount-intr-at-line150-cfg.json",
-      "sha256": "e679102d0d2d3b7de8271d1cc0ba9a591db5b40ae8fff6d006b0a2824cca0e53"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
     },
     {
-      "path": "analysis/leafgreen-jp-enable-vcount-intr-at-line150-map.json",
-      "sha256": "97a584f518f1d3e59ec088d9a91d2a1b4f05c7fa9849aec5f15ca30d4b2d31f8"
+      "path": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "d78d56fa45ee013699186ca79398a07538ad861e01f192d43a4d42f64b59225e"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "d4add709c4fa1473d86ebe2fa05b5d1a9944dbadb03b82d6271dcb326719aaa6"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "05a1ec8d345c7031cad27ff618c3ea4e9ff5db21a0f1a8a86979d52b9bca2d14"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "174b7695f191548b51853b88ef75bec83f642e4f56c92e4aebcb3b7efde9c420"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "b7dabe6ae4d208da21016ac9c31d99eae4bbb0e604f83d3b690f458953814dd8"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "b8d14858da7d0d3818c89919e6c8e55ca8f214308f530693bc48921fd50bac0d"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "5466ce7c428995cd38ad785c845019f8a4bc962eaa5bfac3c94b8a7da9a6abaa"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "104188c77b8e29d3b0cf54680331729d92066a930a90753fda895894b62fa417"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "ee2deadd9ccf687873f518cfe852f9cf833c46a4931964feddbf331e13ed2ac7"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "32d233d05fca373017015c42f8bf5f9dbcaaab2ac8fb8515df952d0373b76dce"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "05787dfcf1b4b1b6c93824b20a1c6e329d202e14b7a65dec5869e8b4a976f70e"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "c64e7a8b878ad650051ecbdcfc0b396bfdd50772639fd46b22cae1fe4dab5988"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "08f29691b6a38d70e163a006488432791b9934edcf5f48bfa5281e0a8ad5b8ce"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "92c5bd8ec3f2148e42ede076abef8e2e5b3dbd39a7f3f4b73efa575327fb62cb"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-summary.json",
+      "sha256": "c335dca986e524908455c702e4feffc196d4fca57c2e262e9b99def8cd891b07"
     },
     {
       "path": "research/enable-vcount-intr-at-line150-reconstruction.md",
-      "sha256": "a752a8789a446542432ed6b6644f87132691b418b35c536bc9d59ff942088a47"
+      "sha256": "68b667b61bdc45f944c40efea18b7f12d8826f995d1fb428dece58d00b5b999d"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_at_line150_reconstruction.py",
+      "sha256": "c9981f5388ca485c8ff60ac3dcc172587847abb799573e48a87e80fb03d0b62c"
     }
   ],
   "raw_rom_bytes_included": false
 }
-

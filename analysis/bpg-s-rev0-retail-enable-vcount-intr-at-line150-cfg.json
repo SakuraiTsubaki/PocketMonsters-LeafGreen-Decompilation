@@ -1,30 +1,38 @@
 {
   "schema_version": 1,
   "rom_base": 134217728,
-  "start_offset": 1432,
-  "start_address": 134219160,
-  "scan_limit_address": 134219416,
+  "start_offset": 1428,
+  "start_address": 134219156,
+  "scan_limit_address": 134219196,
   "instruction_halfwords": 20,
-  "range_start": 134219160,
-  "range_end": 134219200,
+  "range_start": 134219156,
+  "range_end": 134219196,
   "return_observed": true,
   "instructions": [
     {
-      "address": 134219160,
+      "address": 134219156,
       "kind": "other"
+    },
+    {
+      "address": 134219158,
+      "kind": "other"
+    },
+    {
+      "address": 134219160,
+      "kind": "call",
+      "target": 134220480
     },
     {
       "address": 134219162,
-      "kind": "other"
+      "kind": "bl-suffix"
     },
     {
       "address": 134219164,
-      "kind": "call",
-      "target": 134220484
+      "kind": "other"
     },
     {
       "address": 134219166,
-      "kind": "bl-suffix"
+      "kind": "other"
     },
     {
       "address": 134219168,
@@ -56,62 +64,54 @@
     },
     {
       "address": 134219182,
-      "kind": "other"
+      "kind": "call",
+      "target": 134220340
     },
     {
       "address": 134219184,
-      "kind": "other"
+      "kind": "bl-suffix"
     },
     {
       "address": 134219186,
-      "kind": "call",
-      "target": 134220344
-    },
-    {
-      "address": 134219188,
-      "kind": "bl-suffix"
-    },
-    {
-      "address": 134219190,
       "kind": "other"
     },
     {
-      "address": 134219192,
+      "address": 134219188,
       "kind": "call",
-      "target": 134220648
+      "target": 134220644
     },
     {
-      "address": 134219194,
+      "address": 134219190,
       "kind": "bl-suffix"
     },
     {
-      "address": 134219196,
+      "address": 134219192,
       "kind": "return-pop"
     },
     {
-      "address": 134219198,
+      "address": 134219194,
       "kind": "return-branch"
     }
   ],
   "edges": [],
   "calls": [
     {
-      "source": 134219164,
-      "target": 134220484
+      "source": 134219160,
+      "target": 134220480
     },
     {
-      "source": 134219186,
-      "target": 134220344
+      "source": 134219182,
+      "target": 134220340
     },
     {
-      "source": 134219192,
-      "target": 134220648
+      "source": 134219188,
+      "target": 134220644
     }
   ],
   "returns": [
-    134219198
+    134219194
   ],
+  "raw_halfwords_omitted": true,
   "source_size": 16777216,
-  "source_sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
-  "raw_halfwords_omitted": true
+  "source_sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48"
 }

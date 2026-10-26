@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 1448,
+  "start_address": 134219176,
+  "scan_limit_address": 134219216,
+  "instruction_halfwords": 20,
+  "range_start": 134219176,
+  "range_end": 134219216,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134219176,
+      "kind": "other"
+    },
+    {
+      "address": 134219178,
+      "kind": "other"
+    },
+    {
+      "address": 134219180,
+      "kind": "call",
+      "target": 134220500
+    },
+    {
+      "address": 134219182,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219184,
+      "kind": "other"
+    },
+    {
+      "address": 134219186,
+      "kind": "other"
+    },
+    {
+      "address": 134219188,
+      "kind": "other"
+    },
+    {
+      "address": 134219190,
+      "kind": "other"
+    },
+    {
+      "address": 134219192,
+      "kind": "other"
+    },
+    {
+      "address": 134219194,
+      "kind": "other"
+    },
+    {
+      "address": 134219196,
+      "kind": "other"
+    },
+    {
+      "address": 134219198,
+      "kind": "other"
+    },
+    {
+      "address": 134219200,
+      "kind": "other"
+    },
+    {
+      "address": 134219202,
+      "kind": "call",
+      "target": 134220360
+    },
+    {
+      "address": 134219204,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219206,
+      "kind": "other"
+    },
+    {
+      "address": 134219208,
+      "kind": "call",
+      "target": 134220664
+    },
+    {
+      "address": 134219210,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219212,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134219214,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [],
+  "calls": [
+    {
+      "source": 134219180,
+      "target": 134220500
+    },
+    {
+      "source": 134219202,
+      "target": 134220360
+    },
+    {
+      "source": 134219208,
+      "target": 134220664
+    }
+  ],
+  "returns": [
+    134219214
+  ],
+  "raw_halfwords_omitted": true,
+  "source_size": 16777216,
+  "source_sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2"
+}
