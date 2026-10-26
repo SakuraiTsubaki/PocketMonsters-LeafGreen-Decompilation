@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/leafgreen-jp-do-soft-reset-map.json",
-      "sha256": "dcd30a331a9364e61fd5109cde564d53e95f2336963069d5ad1b280bf6baddc4"
+      "sha256": "b4226c3cf22206163a90ea7a9971b071c1d1f5b4949c5c23559213697de83c91"
     },
     {
       "path": "research/do-soft-reset-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

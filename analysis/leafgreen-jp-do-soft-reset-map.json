@@ -55,10 +55,9 @@
   "cfg": "analysis/leafgreen-jp-do-soft-reset-cfg.json",
   "naming_basis": {
     "repository": "pret/pokefirered",
-    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
     "path": "src/main.c",
     "match_kind": "straight-line call order, hardware addresses and constants",
     "raw_rom_bytes_published": false
   }
 }
-

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "function": "DoSoftReset",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/do_soft_reset.c",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x080008D8",
+      "code_sha256": "dbe54fad672a911a2b27b6a13903f252386a5c2a16811c1150820295cfa3447a",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081C16C0",
+        "ScanlineEffect_Stop": "0x08087A1C",
+        "SoftReset": "0x081C7A80"
+      },
+      "evidence": {
+        "map": "analysis/bpg-j-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-j-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x080008D8",
+      "code_sha256": "ffe145b8924a31c82f993eda7214e0cd2f301a39045b0a74905731670a718e50",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD704",
+        "ScanlineEffect_Stop": "0x08087E38",
+        "SoftReset": "0x081E3B60"
+      },
+      "evidence": {
+        "map": "analysis/bpg-e-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-e-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x080008EC",
+      "code_sha256": "ece394fad7294beebcc56cc46c4d20300664014858abe6fee5330327c23d3243",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD774",
+        "ScanlineEffect_Stop": "0x08087E4C",
+        "SoftReset": "0x081E3BD0"
+      },
+      "evidence": {
+        "map": "analysis/bpg-e-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-e-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x080008E8",
+      "code_sha256": "827848b689a6540240e6bfe610fc1c99b075a1cb545872e7cefaf59f66d1e1be",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E199C",
+        "ScanlineEffect_Stop": "0x08087D9C",
+        "SoftReset": "0x081E7A48"
+      },
+      "evidence": {
+        "map": "analysis/bpg-d-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-d-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x080008D4",
+      "code_sha256": "dc3930f1b19fb997649e6590ef9f580b9c69f7a956f1fe43f1f2086ac5c31f5b",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DBED8",
+        "ScanlineEffect_Stop": "0x08087E5C",
+        "SoftReset": "0x081E1F84"
+      },
+      "evidence": {
+        "map": "analysis/bpg-f-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-f-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x080008E8",
+      "code_sha256": "bedc493da5cd98cfaf7510106e4c07d93a509ca2ede84f82b1b64794fb3f1273",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DAB70",
+        "ScanlineEffect_Stop": "0x08087D88",
+        "SoftReset": "0x081E0C1C"
+      },
+      "evidence": {
+        "map": "analysis/bpg-i-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-i-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x080008D4",
+      "code_sha256": "9ffae91f9877bdbac9dba52f8d60b2eeba02038ead63cb6019ad792711296bfb",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD238",
+        "ScanlineEffect_Stop": "0x08087E70",
+        "SoftReset": "0x081E32E4"
+      },
+      "evidence": {
+        "map": "analysis/bpg-s-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpg-s-rev0-retail-do-soft-reset-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

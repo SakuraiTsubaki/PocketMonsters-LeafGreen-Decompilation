@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "function": "DoSoftReset",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/do_soft_reset_catalog.py",
+    "tool_sha256": "67c8b41cf9789a0e6f5664e86978bddb51af748e62baaba899edf0d1b1e353db"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "b6dd00f1faa5e665e0a02521a9f78a6b6044fb4160b64e6f2fa757e267ecf59e"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "0c35151d0ed84507c042caebd4d06526f1201614ca2fd8e5fddc91cc04f9a934"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-do-soft-reset-map.json",
+      "sha256": "3fbad0fcb245615eea5a12251c0cb17a3347245a7a3a34a04a0dd810c95a4a1c"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "a2549364d8dc71e723ffeace295b9a7053fda604ddbd8d8118ff8cf82c698b4f"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-do-soft-reset-map.json",
+      "sha256": "c859ff04e774c76ac25d1fcc3a95a0ffd37e4e41aa057577563dd67c7498892e"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "75c1271d1fe8e7308fb2034aaee244fc3140c3f558b0d83e7eb0546e1010a609"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-do-soft-reset-map.json",
+      "sha256": "5e7cbbd82edb24c5fd1bed7de4694a09f62c7147702360132bdbec7346734f6b"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "4f77f0156ea998270b3dca521c3eb0b49361fb7e6b946d08f3b1ccdd03e03732"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-do-soft-reset-map.json",
+      "sha256": "e161b38ab9ce4141ab97ed95b59860b6ba0b721e42bb13818c23fd136a7b5705"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "24f133617e09881575ccb94a32d057b257fa4e6761d671e78d94b4d69df91cb3"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-do-soft-reset-map.json",
+      "sha256": "4be7ef34f89d006b00a1eec1e9f3d4b5a9876c26d183472945011f49c0add56f"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "b8aa208ee0ce729dc3332762f386c7d4046f0c546dc654d50026991cf13a4d8f"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-do-soft-reset-map.json",
+      "sha256": "f47998da1e7f2345908c2b21dfb4ea38f21c1f6ba2c1251c06da75a06f2249fa"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "fa18268a943aa70234d8eecb2f784543da1676f89c2bfe660790253f5e737c1d"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-do-soft-reset-map.json",
+      "sha256": "8e8f8fc9eaf3af2f4bc435bed268b6b328937b4d638711fecbf6df20d8940eef"
+    },
+    {
+      "path": "analysis/leafgreen-jp-do-soft-reset-map.json",
+      "sha256": "b4226c3cf22206163a90ea7a9971b071c1d1f5b4949c5c23559213697de83c91"
+    },
+    {
+      "path": "manifests/do-soft-reset-reconstruction.json",
+      "sha256": "51287765b62d2ef729b0f804cc3b5be7c211345ace434e9c1a98c8a9002956dd"
+    },
+    {
+      "path": "analysis/do-soft-reset-catalog-summary.json",
+      "sha256": "b63570b08f48264e63ce0d73812476316bdff1d5a26c34e7a33c5953f6ff541a"
+    },
+    {
+      "path": "research/do-soft-reset-global-reconstruction.md",
+      "sha256": "1e260e4589a3561ec02c8cd0ffc8185c5a2fb0f37c7cca02d4e874b1ed98f859"
+    },
+    {
+      "path": "tests/test_do_soft_reset_catalog.py",
+      "sha256": "46981230bd3780b0bc8dd3bf5c3d7aaa0d71f3368b7137652cffcbab08856d8c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
