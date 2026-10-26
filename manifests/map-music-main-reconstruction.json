@@ -1,33 +1,63 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPGJ-rev0",
-    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
-  },
+  "game": "LeafGreen",
   "function": "MapMusicMain",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/map_music_catalog.py",
+    "tool_sha256": "075b0e127192699313a618260cf0906e13374a96d80020a301a022f2644d68cd"
   },
   "outputs": [
     {
       "path": "src/map_music_main.c",
-      "sha256": "e98a408ff7496f5419298bfc27ef9988e74c125d247267b48cd84b90f0b963f6"
+      "sha256": "2ac443ed3a163fb4cfa0305551388f4ce2b08ea9404f3aa3162f941d01b6e79d"
     },
     {
-      "path": "analysis/leafgreen-jp-map-music-main-cfg.json",
-      "sha256": "4b32889c70da79abfa19ec5a9b250dd3bc7d7fc2afcc4033c9f09c69730fccd3"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
     },
     {
-      "path": "analysis/leafgreen-jp-map-music-main-map.json",
-      "sha256": "9a4507220d10bc0589bfc1218fa55582c90b145171b9fb4123c93d9f16884433"
+      "path": "analysis/map-music-summary.json",
+      "sha256": "9c40834f16c62b52c36a940aa5c407844cd72eb87376ebde58c01ef9be066e38"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-map-music-main-map.json",
+      "sha256": "6aa5dd7b28f8edd16e775ae90005bbaa34062664b1462cbc31575bcb5a28a571"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-map-music-main-map.json",
+      "sha256": "72600888ba7c4ad286e0141c4b20bad8b42f275665bc89fdce25ecdedb3c3cd8"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-map-music-main-map.json",
+      "sha256": "8b1ede6b77c61f1ba45840c47248f58393482900f60fcf2773d99288e09be778"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-map-music-main-map.json",
+      "sha256": "2b451ed5672fbce325ea66c852e6df80af47956839d4f4f9cddde33033c83c6d"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-map-music-main-map.json",
+      "sha256": "4e8498d1f678d29c399c61d7fb9ec8ad7d6db184ca65fda4ecfe69de26e13f36"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-map-music-main-map.json",
+      "sha256": "36714f51a1b0244c0b80970be3fd12209f1fdd3a7c4d2ce57c1324ea87f14e15"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-map-music-main-map.json",
+      "sha256": "8c37c7298b175cbba5c18c967e06433dd7c0d0c5bbf65cc0652ef13d1a4a1dae"
     },
     {
       "path": "research/map-music-main-reconstruction.md",
-      "sha256": "9f1f35c6f7044f1d15eb21184e882300259e91a7a73c91fe7115cfd8c305fc9b"
+      "sha256": "4f418893d078fa5780c20b5ea8d579160d6b7b160f4f6dcfa7bdf42af949308b"
+    },
+    {
+      "path": "tests/test_map_music_main_reconstruction.py",
+      "sha256": "47e4e521a4fb1e47a253c6514959288fc87c5fed39604388e640144302b41d53"
     }
   ],
   "raw_rom_bytes_included": false
 }
-
