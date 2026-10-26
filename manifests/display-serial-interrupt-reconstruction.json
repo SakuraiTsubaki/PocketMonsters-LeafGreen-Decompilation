@@ -1,12 +1,68 @@
 {
   "schema_version": 1,
-  "target": {"release": "BPGJ-rev0", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
-  "functions": ["HBlankIntr", "VCountIntr", "SerialIntr"],
+  "game": "LeafGreen",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/display_interrupt_catalog.py",
+    "tool_sha256": "771f6b764d7e830e7b6556476f58c2744f5dd8d637ea0ce81498df9ebe4d5fe8"
+  },
   "outputs": [
-    {"path": "src/display_serial_interrupts.c", "sha256": "6d4fed1006573375647c84e90c113758d370ec025c837a9c5e1c1a9f1f4f105d"},
-    {"path": "analysis/leafgreen-jp-display-serial-interrupt-map.json", "sha256": "7fe3dc93e757cb87045cca42d814aacf1a3f53964d19c46724a30a6dea52ef15"},
-    {"path": "research/display-serial-interrupt-reconstruction.md", "sha256": "0e22295203626942bcac8cdd7415ecfc6fe0771b21cb0a1958c34b86e544eade"}
+    {
+      "path": "src/display_serial_interrupts.c",
+      "sha256": "66a2c0145492fa82e1d7ea612f6d998f076562e7b3a701148f15370558a1165f"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "070c752a2e58de1877df5f82f2e0844c5325f4600628f2d4c7ef61de38513b8e"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "e4b5d2a3a22a2002924d428a0d69ec5b36b30431faca59de38617c90092942ce"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "6690466d605eed60d8c564e573a689ebc52edfb9fea6c4855c6e79e15211b8e0"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "4d6f7a6521d8ecf8bb42539b576a9f2eb515358f3c4c21ceded50255c8539aaa"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "bb94a7fcdd93e0ef8192bde06b3f781d09049d4626b774a58dc4f551dd33424b"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "af4ccd24ecc862db03fdbb70852199e33d7f1a59462d07f41eaa45067d1eb910"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "3919e0b10a8291169a976ff2ce51d3ae87a5968e0a18393b3dd709e23cc45008"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-summary.json",
+      "sha256": "ff06329f120a3034e5cbe4eb4159ad2582ca811800ed9f1c2f70be5e470e6d65"
+    },
+    {
+      "path": "research/display-serial-interrupt-reconstruction.md",
+      "sha256": "450054ddae613a63119f4a27b45e42241df2fe562206617def5b47fbb027a6bf"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts.py",
+      "sha256": "3a449f52133d278384658e3995cef30f27e4a4302b937ba3020de458ed3480ed"
+    }
   ],
   "raw_rom_bytes_included": false
 }
-

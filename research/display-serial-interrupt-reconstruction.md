@@ -1,12 +1,5 @@
-# BPGJ revision 0 display and serial interrupts
+# LeafGreen display and serial interrupt reconstruction
 
-The Japanese LeafGreen ROM places `HBlankIntr`, `VCountIntr`, and `SerialIntr`
-after the VBlank handler. HBlank and serial conditionally dispatch their
-respective `gMain` callbacks before acknowledging the interrupt in both the
-BIOS check word and `gMain.intrCheck`.
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain exactly one HBlank, VCount and Serial handler matching the `frlg` structural profile. VCount records REG_VCOUNT and invokes m4aSoundVSync without a vcount callback.
 
-VCount records the current scanline byte at `0x03003DC0`, calls this build's
-`m4aSoundVSync`, and performs the same dual acknowledgment. The map preserves
-the exact function boundaries, game-specific call targets, literals, flags,
-and combined range hash without publishing ROM instruction bytes.
-
+Each handler sets both the shared IWRAM interrupt check and gMain.intrCheck with HBlank 0x0002, VCount 0x0004 or Serial 0x0080. Per-release maps retain ranges, code hashes, validated literals and call targets without publishing ROM instruction bytes. Naming and behavior are corroborated by `pret/pokefirered` at `037335f4c725d7c9aecdac87066f2002b4bd7e14`, `src/main.c`.
