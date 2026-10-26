@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-e-rev0-retail",
+    "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc"
+  },
+  "profile": "pointer",
+  "source": "src/play_time_counter.c",
+  "source_sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca",
+  "save_storage": "gSaveBlock2Ptr",
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x03000E7C",
+    "gSaveBlock2Ptr": "0x0300500C"
+  },
+  "save_field_offsets": {
+    "playTimeHours": 14,
+    "playTimeMinutes": 16,
+    "playTimeSeconds": 17,
+    "playTimeVBlanks": 18
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/play_time.c",
+    "match_kind": "cluster layout, state writes, save offsets, thresholds, CFGs, and SetToMax call targets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
+  "function": {
+    "name": "PlayTimeCounter_Update",
+    "address": "0x0805486C",
+    "range_end_exclusive": "0x080548C8",
+    "rom_code_range": {
+      "start_offset": 346220,
+      "end_offset_exclusive": 346312,
+      "length": 92,
+      "sha256": "4307a398f162c7bc732bb41036bbc531ffd4049ce7cea4a9920d24ef779cb4d8",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "source": "0x080548C0",
+        "target": "0x080548D4",
+        "name": "PlayTimeCounter_SetToMax"
+      }
+    ],
+    "control_flow": {
+      "instruction_halfwords": 46,
+      "edge_count": 10,
+      "return_count": 1,
+      "call_count": 1,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "behavior": {
+    "required_state": 1,
+    "vblanks_per_second": 60,
+    "seconds_per_minute": 60,
+    "minutes_per_hour": 60,
+    "maximum_hours": 999
+  }
+}

@@ -1,31 +1,63 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPGJ-rev0",
-    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
-  },
+  "game": "LeafGreen",
+  "profile": "pointer",
   "function": "PlayTimeCounter_Update",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
+      "sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca"
     },
     {
-      "path": "analysis/leafgreen-jp-play-time-counter-update-cfg.json",
-      "sha256": "7a4f791cc71c92fb47e4a72a065087438fa3a9352d0bdf0adbb5823131b3d502"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
     },
     {
-      "path": "analysis/leafgreen-jp-play-time-counter-update-map.json",
-      "sha256": "e6bca8cd9c39c5e9d33acb108f0e3caf3db7125d4d1fbf80c7bca6630a21f2e1"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "f4e0058ad3fceb70aad928681ef613a11d43915087bfccc5b64051ca7c1e6932"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "cc1f8bb1872d125b5e551a38f6719b718fcf7fed5ee8f26f9d86e37e80595712"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "5b7183c86ea55889511d5904394c0846b74bd834626ecdb8a7cae861e6582bfc"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "1448222343023d7052e0c8e133a846c7f37e999e2ef6860aebb9e5a4a1d2253f"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "ea5781766d30d0198161078556fef4df0fff9dfc23cfd9709600a96b5fa487da"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "18787f8323109284fffccac0ecee20500d0c395c4685af0c280cf2d851c5cc33"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "ebb746608f802ba61c8a377f0ac8ea81e5a1a32cbb4c97e0b0bc84775d78f3c8"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "dd7696eac3304b92842f3294ac8821b1f1375e98323887687908c36514752f4f"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
-      "sha256": "704529644485e7771f05688129cac2aade57164b7eca1491967f557968ce0a73"
+      "sha256": "e87e3402c136036173d4e5153c39382e3ad7d171827ea8fb989864248c4c6cb9"
+    },
+    {
+      "path": "tests/test_play_time_counter_update_reconstruction.py",
+      "sha256": "1ec060c1867c283629919095058eba7afb13b606868ec57295424ca880124625"
     }
   ],
   "raw_rom_bytes_included": false
