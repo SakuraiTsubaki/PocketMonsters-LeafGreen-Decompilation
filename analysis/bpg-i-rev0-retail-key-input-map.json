@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "profile": "pointer",
+  "source": "src/key_input.c",
+  "source_sha256": "3031c6c9347c282b2b90af611d9dc761fbad5972fd00644273183a96adc249a0",
+  "functions": [
+    {
+      "name": "InitKeys",
+      "address": "0x080005D0",
+      "range_end_exclusive": "0x080005EC",
+      "rom_code_range": {
+        "start_offset": 1488,
+        "end_offset_exclusive": 1516,
+        "length": 28,
+        "sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "ReadKeys",
+      "address": "0x080005F8",
+      "range_end_exclusive": "0x0800068E",
+      "rom_code_range": {
+        "start_offset": 1528,
+        "end_offset_exclusive": 1678,
+        "length": 150,
+        "sha256": "76997821f93205f68cca0e791c0858b985618d9b22112b2fe1d534dd7282df65",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 66,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "REG_KEYINPUT": "0x04000130",
+    "KEYS_MASK": "0x000003FF",
+    "gMain": "0x03003040",
+    "gKeyRepeatContinueDelay": "0x0300347C",
+    "gKeyRepeatStartDelay": "0x03003030",
+    "gSaveBlock2Ptr": "0x03004F5C"
+  },
+  "proven_offsets": {
+    "heldKeysRaw": 40,
+    "newKeysRaw": 42,
+    "heldKeys": 44,
+    "newKeys": 46,
+    "newAndRepeatedKeys": 48,
+    "keyRepeatCounter": 50,
+    "watchedKeysPressed": 52,
+    "watchedKeysMask": 54,
+    "optionsButtonMode": 19
+  },
+  "constants": {
+    "repeat_continue_delay": 5,
+    "repeat_start_delay": 40,
+    "l_button": 512,
+    "a_button": 1,
+    "l_equals_a_mode": 2
+  },
+  "save_options_access": "pointer_indirect",
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "Thumb control flow, constants, literals, state offsets, and save-option access",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

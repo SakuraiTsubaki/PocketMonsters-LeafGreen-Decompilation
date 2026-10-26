@@ -1,25 +1,66 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPGJ-rev0",
-    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
-  },
+  "game": "LeafGreen",
   "functions": [
     "InitKeys",
     "ReadKeys"
   ],
+  "profile": "pointer",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/key_input_catalog.py",
+    "tool_sha256": "e0db0f2f110864675f48debaaad10a4556f044e13605b081c1ce958f87bc44e5"
+  },
   "outputs": [
     {
       "path": "src/key_input.c",
-      "sha256": "ad61eb5027257833023af8ffc2759c7f41c8acc824a3b51402e4757a5a55d361"
+      "sha256": "3031c6c9347c282b2b90af611d9dc761fbad5972fd00644273183a96adc249a0"
     },
     {
-      "path": "analysis/leafgreen-jp-key-input-map.json",
-      "sha256": "99219c4e67bdcb9da9f6a05b5cd7fb03a40cdaf1e9c387d729726b1aec73313a"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-key-input-map.json",
+      "sha256": "34618d25633cfaf59655e4a2e03acfa55e84a34595dada3268832f51ee3c04c2"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-key-input-map.json",
+      "sha256": "efc34b757a959d8105b8d97f026ee717d523025c0d79bd3b8bc93649d68a4f31"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-key-input-map.json",
+      "sha256": "f4c731a501818da70ad7eed435f30650382ec46870a20a434950754adee23b62"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-key-input-map.json",
+      "sha256": "714cb76d4cb9ec76922ffe00d9dedc20b8f5667d57c4d86afee2bb61430d7c11"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-key-input-map.json",
+      "sha256": "330948ccf7e06ff1a1b599902fc4a99c3e4cb37c8194f33e546609d1696f34e1"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-key-input-map.json",
+      "sha256": "a651cc9d822246051f83a5f5abd74b9800da4226a194c7d46ce69d296cd94435"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-key-input-map.json",
+      "sha256": "03f58533730d6aead5c5e1fd884868c724bdfa51987d71088322c737827447ba"
+    },
+    {
+      "path": "analysis/key-input-summary.json",
+      "sha256": "5332125f48ca0f2a39e9a79bddb88a598b10f9b0062caea1ca86f0496ea504db"
     },
     {
       "path": "research/key-input-reconstruction.md",
-      "sha256": "64dfece1f4a41461701077e334d744b1bf1d7600d0ec290de3867482c2dff995"
+      "sha256": "609f75406bffd06460b84d1b12d861a481aa8007cf615daf65e25d5cd42afac5"
+    },
+    {
+      "path": "tests/test_key_input_reconstruction.py",
+      "sha256": "1a90fc9a209bbad400e44ea010410c7a82f2913e099a4bdf495522c031e85287"
     }
   ],
   "raw_rom_bytes_included": false
