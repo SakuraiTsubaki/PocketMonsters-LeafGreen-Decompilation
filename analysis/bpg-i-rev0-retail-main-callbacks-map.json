@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "origin_reference": false,
+  "family_profile": "frlg",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": "0x080004C0",
+      "range_end_exclusive": "0x080004D4",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d",
+      "rom_code_range": {
+        "start_offset": 1216,
+        "end_offset_exclusive": 1236,
+        "length": 20,
+        "sha256": "3f4a63e182086efaacb5d3bfb2f0bdd7a9c3a9e499f47ec32f33453b4c1e1573",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "HandleLinkConnection",
+          "source": "0x080004C2",
+          "target": "0x0800B0F8"
+        },
+        {
+          "name": "CallCallbacks",
+          "source": "0x080004CC",
+          "target": "0x08000520"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 10,
+        "edge_count": 2,
+        "edge_kinds": {
+          "conditional-fallthrough": 1,
+          "conditional-taken": 1
+        },
+        "direct_call_count": 2,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "InitMainCallbacks",
+      "address": "0x080004D4",
+      "range_end_exclusive": "0x08000504",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d",
+      "rom_code_range": {
+        "start_offset": 1236,
+        "end_offset_exclusive": 1284,
+        "length": 48,
+        "sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "SetMainCallback2",
+          "source": "0x080004E2",
+          "target": "0x08000554"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 24,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 1,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "CallCallbacks",
+      "address": "0x08000520",
+      "range_end_exclusive": "0x08000550",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d",
+      "rom_code_range": {
+        "start_offset": 1312,
+        "end_offset_exclusive": 1360,
+        "length": 48,
+        "sha256": "ddbba1dc167d634d4baf9223cd23306655b59282755d783ca5bda647842b370a",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "RunSaveFailedScreen",
+          "source": "0x08000522",
+          "target": "0x080F5384"
+        },
+        {
+          "name": "RunHelpSystemCallback",
+          "source": "0x0800052A",
+          "target": "0x0813B924"
+        },
+        {
+          "name": "Callback1Dispatch",
+          "source": "0x0800053C",
+          "target": "0x081E0C40"
+        },
+        {
+          "name": "Callback2Dispatch",
+          "source": "0x08000546",
+          "target": "0x081E0C40"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 24,
+        "edge_count": 8,
+        "edge_kinds": {
+          "conditional-fallthrough": 4,
+          "conditional-taken": 4
+        },
+        "direct_call_count": 4,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": "0x08000554",
+      "range_end_exclusive": "0x08000564",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "66e218c3474fdd8c99d7cdf154ce6b9936a2281f8c24cab42c115eb1fb57b27d",
+      "rom_code_range": {
+        "start_offset": 1364,
+        "end_offset_exclusive": 1380,
+        "length": 16,
+        "sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 8,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 0,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "cross_references": {
+    "agb_main_map": "analysis/bpg-i-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "718e7dd7624185b19caf545c2637dbfa9a2697e0217d609b026a9ab121d73cb7",
+    "set_main_callback2_map": "analysis/bpg-i-rev0-retail-set-main-callback2-map.json",
+    "set_main_callback2_map_sha256": "c92f593348cc2a2c3f29b2840117cdf31e731152714ecd019dd80b4a6774322f"
+  },
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "sources": [
+    "src/main_callbacks.c"
+  ],
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004B0",
+          "code_sha256": "7062be8a681065f42cb094335f260b25a9ac1964bdcfdc870670066f6af85f12"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004C4",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x08000510",
+          "code_sha256": "d62e08dc36640bcc5845d9c47df51cf4f0499a68cca8cafbf1d976625e36caee"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000544",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-j-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004B0",
+          "code_sha256": "106e354f2240990c927097cdf7d091cb9912a5968647ae51a23104512fda89fc"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004C4",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x08000510",
+          "code_sha256": "c0cc28954fbd77fd7c3b157a3af6e0061c0fae5d670af45317b143d3455fc583"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000544",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-e-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004C4",
+          "code_sha256": "106e354f2240990c927097cdf7d091cb9912a5968647ae51a23104512fda89fc"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004D8",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x08000524",
+          "code_sha256": "7a7944e1f7bda76e240d9190f4c80e92e543c3fd8dd999753390a9cdfd6b9a9a"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000558",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-e-rev1-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004C0",
+          "code_sha256": "3f4a63e182086efaacb5d3bfb2f0bdd7a9c3a9e499f47ec32f33453b4c1e1573"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004D4",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x08000520",
+          "code_sha256": "d875134020e9b5fc8881d6a8376c060de778b541d2e379d9272681f0d9ac8135"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000554",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-d-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004AC",
+          "code_sha256": "3f4a63e182086efaacb5d3bfb2f0bdd7a9c3a9e499f47ec32f33453b4c1e1573"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004C0",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x0800050C",
+          "code_sha256": "4c0d38b3e0e58e421d32d872b9a6d897ed74df48169aa7aca185be771b980903"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000540",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-f-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004C0",
+          "code_sha256": "3f4a63e182086efaacb5d3bfb2f0bdd7a9c3a9e499f47ec32f33453b4c1e1573"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004D4",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x08000520",
+          "code_sha256": "ddbba1dc167d634d4baf9223cd23306655b59282755d783ca5bda647842b370a"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000554",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-i-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x080004AC",
+          "code_sha256": "3f4a63e182086efaacb5d3bfb2f0bdd7a9c3a9e499f47ec32f33453b4c1e1573"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004C0",
+          "code_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34"
+        },
+        "CallCallbacks": {
+          "address": "0x0800050C",
+          "code_sha256": "6848a72cad7f08f674eda8e769077e522c15862e19a0669fbd4dfac54a4d3da5"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000540",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/bpg-s-rev0-retail-main-callbacks-map.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

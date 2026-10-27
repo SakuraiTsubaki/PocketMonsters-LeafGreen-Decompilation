@@ -1,5 +1,3 @@
-# Main callback reconstruction
+# LeafGreen main callback cluster reconstruction
 
-The existing BPGJ revision-zero callback reconstruction is now tied to four exact ROM ranges. It covers link handling, save/quest-log initialization, guarded callback dispatch through the save-failure and help systems, and callback2/state assignment. Names follow `pret/pokefirered`; addresses, offsets, and hashes come from the verified Japanese ROM.
-
-The C source and map contain no verbatim ROM byte extracts. LeafGreen and FireRed retain separate evidence for their differing callback body.
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) were verified from `AgbMain` call targets. `CallCallbacks` is reached as the terminal direct callee of `UpdateLinkAndCallCallbacks`; `SetMainCallback2` is reached from `InitMainCallbacks` and cross-checked against the existing global SetMainCallback2 catalog. Per-release maps retain function ranges, hashes, named direct calls and raw-free CFG summaries. No ROM instruction bytes are published.
