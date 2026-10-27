@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-s-rev0-retail",
+    "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48"
+  },
+  "origin_reference": false,
+  "source": "src/dma3_manager.c",
+  "source_sha256": "385464db0947c8e0f385e346098dbbc287798c6fd0dea2aa4b78aeef3e8d61d5",
+  "function": {
+    "name": "ClearDma3Requests",
+    "address": "0x08000BF8",
+    "range_end_exclusive": "0x08000C22",
+    "rom_code_range": {
+      "start_offset": 3064,
+      "end_offset_exclusive": 3106,
+      "length": 42,
+      "sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "locks_manager_during_reset": true,
+    "resets_request_cursor": true,
+    "request_count": 128,
+    "cleared_fields": [
+      "size",
+      "src",
+      "dest"
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 21,
+    "edge_count": 2,
+    "direct_call_count": 0,
+    "return_count": 1,
+    "loop_back_edge": {
+      "source": "0x08000C18",
+      "target": "0x08000C0C"
+    },
+    "canonical_reachable_bytes_sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+    "raw_halfwords_omitted": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpg-s-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "47e1cdc70f71a2bf1356b4a9fa3c3136c26fc2b8a0ffb9ce5a4ab0dcc3e414ee"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/dma3_manager.c",
+    "match_kind": "caller identity, loop shape, globals and field stores"
+  },
+  "raw_rom_bytes_included": false
+}

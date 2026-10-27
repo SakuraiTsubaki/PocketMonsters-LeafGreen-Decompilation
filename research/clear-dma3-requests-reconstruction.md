@@ -1,0 +1,3 @@
+# LeafGreen `ClearDma3Requests` reconstruction
+
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) resolve the function from the existing `AgbMain` map and share the same 21-halfword, no-callee control-flow shape with one request-array loop and one return. The source reconstructs the manager lock, cursor reset, and clearing of the size, source, and destination fields in all 128 requests. Per-release maps preserve addresses and hashes without ROM bytes or instruction halfwords. Naming and behavior are cross-referenced to `pret/pokefirered` commit `037335f4c725d7c9aecdac87066f2002b4bd7e14`, `src/dma3_manager.c`.

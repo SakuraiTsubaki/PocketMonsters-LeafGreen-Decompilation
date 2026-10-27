@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "function": "ClearDma3Requests",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/clear_dma3_requests_catalog.py",
+    "tool_sha256": "1e547937eb9bf62a688240b423d4690c1a5939056724f385abe4f4fca0244ab9"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/dma3_manager.c",
+      "sha256": "385464db0947c8e0f385e346098dbbc287798c6fd0dea2aa4b78aeef3e8d61d5"
+    },
+    {
+      "path": "analysis/clear-dma3-requests-summary.json",
+      "sha256": "c2c3aaee43f0a668befc5dbace902066d95f13b538a293175103f699c07b7767"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "e6d2afe13dc58a1088ddca47fedb97d31e451d88541d08df99da8ee146f19d12"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "cdaab19137c884c8ff7ea7474e0b11414c74b6c93c76c3db5c7765067a7db9d8"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-clear-dma3-requests-map.json",
+      "sha256": "f59dfbb950966d4d441e9d89799bca0cfe5c6248da0b66d39023a338d3178847"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "cea98727a929436bf6e4c23c44b64b6cb8be108bfd19e07308f27013b7793b36"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "bfb4d8dbbba7b834e22264ee907c7ab13eda5fb4132eb0f5a944a5399a9e030e"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "a290c2fe66e3bc14b4d5deb214d4cb5379074cf2f301df085351dd245d8ae5e3"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "2c05a9e64b5b0995eb279660689ee990b3cbeaf2f20c59b11d468a67bf1a72c0"
+    },
+    {
+      "path": "research/clear-dma3-requests-reconstruction.md",
+      "sha256": "efff14157bfac50574e65a671d840fe8debb42233282afda2a8ce1e8e3fe41f7"
+    },
+    {
+      "path": "tests/test_clear_dma3_requests_reconstruction.py",
+      "sha256": "1ca922a99069bc4194e66a4f6c92e49c60a39e6440964b73fd1ad72b55f20267"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
