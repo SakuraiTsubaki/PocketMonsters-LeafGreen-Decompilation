@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "origin_reference": false,
+  "functions": [
+    {
+      "name": "InitHeap",
+      "address": "0x08002B00",
+      "range_end_exclusive": "0x08002B12",
+      "source": "src/malloc.c",
+      "source_sha256": "3a203f94f6d1d1229435d3f0f4c4b2b374f47fbeee96831357c7fd45e021c57c",
+      "rom_code_range": {
+        "start_offset": 11008,
+        "end_offset_exclusive": 11026,
+        "length": 18,
+        "sha256": "58a6d1974fbd23162804361a6d107a95e0f4cca282c2d37bd0e5ab80e08bdda7",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "PutFirstMemBlockHeader",
+          "source": "0x08002B0A",
+          "target": "0x08002958"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 9,
+        "edge_count": 0,
+        "direct_call_count": 1,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "58a6d1974fbd23162804361a6d107a95e0f4cca282c2d37bd0e5ab80e08bdda7",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PutFirstMemBlockHeader",
+      "address": "0x08002958",
+      "range_end_exclusive": "0x0800296A",
+      "source": "src/malloc.c",
+      "source_sha256": "3a203f94f6d1d1229435d3f0f4c4b2b374f47fbeee96831357c7fd45e021c57c",
+      "rom_code_range": {
+        "start_offset": 10584,
+        "end_offset_exclusive": 10602,
+        "length": 18,
+        "sha256": "e43b5d086a5b439ab771e75d26508677814d3d3cb3fbdf7a3c1019e74231db32",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "PutMemBlockHeader",
+          "source": "0x08002962",
+          "target": "0x0800293C"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 9,
+        "edge_count": 0,
+        "direct_call_count": 1,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "e43b5d086a5b439ab771e75d26508677814d3d3cb3fbdf7a3c1019e74231db32",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PutMemBlockHeader",
+      "address": "0x0800293C",
+      "range_end_exclusive": "0x08002952",
+      "source": "src/malloc.c",
+      "source_sha256": "3a203f94f6d1d1229435d3f0f4c4b2b374f47fbeee96831357c7fd45e021c57c",
+      "rom_code_range": {
+        "start_offset": 10556,
+        "end_offset_exclusive": 10578,
+        "length": 22,
+        "sha256": "36d2ccf57d93a9b271086c82d1c4af0157ea36baccdafdf5140eed4c9eed2a9b",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "direct_call_count": 0,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "36d2ccf57d93a9b271086c82d1c4af0157ea36baccdafdf5140eed4c9eed2a9b",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "verified_behavior": {
+    "records_heap_start_and_size": true,
+    "creates_circular_first_block": true,
+    "first_block_payload_size": "heap_size - sizeof(struct MemBlock)",
+    "initial_allocation_flag": false,
+    "magic": "0xA3A3"
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpg-i-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "718e7dd7624185b19caf545c2637dbfa9a2697e0217d609b026a9ab121d73cb7"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/malloc.c",
+    "match_kind": "caller identity, direct-call chain and field stores"
+  },
+  "raw_rom_bytes_included": false
+}

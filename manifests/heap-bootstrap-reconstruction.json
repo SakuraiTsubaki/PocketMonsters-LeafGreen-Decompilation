@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "cluster": [
+    "InitHeap",
+    "PutFirstMemBlockHeader",
+    "PutMemBlockHeader"
+  ],
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_heap_catalog.py",
+    "tool_sha256": "4766fc2308fcbcbdf3fe947b5660abe272bdc734d7d7bc2523d9cf4c7bf86dd9"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/malloc.c",
+      "sha256": "3a203f94f6d1d1229435d3f0f4c4b2b374f47fbeee96831357c7fd45e021c57c"
+    },
+    {
+      "path": "analysis/heap-bootstrap-summary.json",
+      "sha256": "959c06bc0cfe5cdd1c469b8b099b2809c115347fac5d9fcfbc6a25d5d80eafca"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "afa294372ff3971b6d0c8d3640a5206be3f908de73c4d1e6725e2208b20616fc"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "102918240987fe99a96861eedcb73fe80a409b01266fe793d90a3523a4d98e98"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-heap-bootstrap-map.json",
+      "sha256": "6af2c46973558c8c868b3509195dee848e1ef0a7617d847a0c8fc0a2abda0cbc"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "689256e95a96db8103cd8d84fc4ab24146ee964f0315dc605575f57d7ff7ba93"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "e773a0f131dc268119059a68a5af409c168b5ecc98630711be3679763dedde12"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "a9802a32a5751691aa59e9580026eb1af900ec733607373efc798a009bc24aa7"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "7603d38120341706f7207258328b2678cde3ab0e5a2c68d0d285868f16a0fe24"
+    },
+    {
+      "path": "research/heap-bootstrap-reconstruction.md",
+      "sha256": "90141b882ebbaf732433a6e5707e0b3f0b9b36c2010b1bc62d44c38066b4fb1a"
+    },
+    {
+      "path": "tests/test_heap_bootstrap_reconstruction.py",
+      "sha256": "e3fef9cce30452a5e266eb2dc0ee48ea36b980f0af9c2fd30d7eb3d7c1c74999"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
