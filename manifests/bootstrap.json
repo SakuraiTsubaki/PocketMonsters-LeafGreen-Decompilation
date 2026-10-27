@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"leafgreen-jp-bootstrap","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"}],"outputs":[{"path":"analysis/leafgreen-jp-bootstrap.json","sha256":"bcaf87d770ca787bfd6ebceafe83a9e589d0fda5e5497bcbf8eedcfd40ee49d0"}]}
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "a0072ead2e084fa187a75b0773daaa67049e027f25accaab3f057d394661cdd1"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-bootstrap.json",
+      "sha256": "0626b33c71197d2e35b7233fd521aa2d4538ea6e510e51071cdcd624e2511b31"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-bootstrap.json",
+      "sha256": "278dba721b11808d0f8dfe01b34061c2755ce198201afa70c49fe5a708f2abb3"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-bootstrap.json",
+      "sha256": "8b2a95d8937bd614847f6345919f60061c6b4ae35e296b94249c0a068cf0b54e"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-bootstrap.json",
+      "sha256": "cd066f9a82b4eae9e622bbb1ca7b67dafffe0dab166140a6552d7d670a5ad751"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-bootstrap.json",
+      "sha256": "63f419bdd70cd8927d7f4d62527beeff2e73263b1c9f45c3c310fa7c43885b4e"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-bootstrap.json",
+      "sha256": "8a38663c9b1ad205fd3f0d40f567b0c7547ac35dfc8acb894c9cf0fc19efaa19"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-bootstrap.json",
+      "sha256": "94349f59f5790c4dc845d7937a77d9da7b92f97d6b8211e50a31e9171de0f84a"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "5fbf3f1c331337f48d131d8e0035d5d6d589210cbf2645221efbd97fd6e6de75"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "14ba1e30518d8dd3c9634d8981bd370a2bcd14564659a502f85ea0684ff3fb76"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

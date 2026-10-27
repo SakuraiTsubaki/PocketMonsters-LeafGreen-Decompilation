@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"leafgreen-jp-entrypoint","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_entrypoint.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"}],"outputs":[{"path":"analysis/leafgreen-jp-entrypoint.json","sha256":"7fbee158dd8889f57199eea9365f3780bb3d5a108a3dabd072fa8eb0070a32c4"},{"path":"src/rom_entry.s","sha256":"fc2388f14cbbf80efdb9d774b45c185633711fadf1f7da2f63b6625d44120b67"}]}
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "52943417ce7ccfee748789bd6b252cf3d8cfb916e1a8928e41dba857ef5bc2f5"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "a0072ead2e084fa187a75b0773daaa67049e027f25accaab3f057d394661cdd1"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-entrypoint.json",
+      "sha256": "fc187da96f3b0af6392ab8c749bc51a74ae7ae837f84ced00a00b6c96483896e"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-entrypoint.json",
+      "sha256": "99039a7cececba2213e9fed96325a3cde2ca457d624c4200c13a32fa93b738bc"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-entrypoint.json",
+      "sha256": "e5633ad3f250ca45e3995c9e6a51d19ccbdb8bdd1d4308b950e54c0654699a28"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-entrypoint.json",
+      "sha256": "8a808e323a4090509bd796adb030842226b01c067f43fb2fb7f099b1b4311915"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-entrypoint.json",
+      "sha256": "9e0e50f38faf8b090dc2fde9d0bbefa604d2cebfdecc8aa5a0e16adcacceab7c"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-entrypoint.json",
+      "sha256": "fa9a1fa871ec5ba4850b29ec39f167beec3cd66169f488efc77517c9f7a3ced1"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-entrypoint.json",
+      "sha256": "f7b0b32b82e9a4939b86cf600edb2f0f98586a42289104fc42aa024258d62a9e"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "2da11f0f6e5614efa572822b79a8e49d03252b75fd2488317204fa56d581fcf9"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "00bb4ea791c452d497700e80c3996a502d2d286e6eac9e1142e3d84e13cd8866"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

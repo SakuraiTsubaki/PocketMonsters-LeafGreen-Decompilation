@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"leafgreen-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"}],"outputs":[{"path":"analysis/leafgreen-jp-thumb-entry-cfg.json","sha256":"a601b7fde12a595af24348fa4f3abc5ca7f31bf3aeb0cc31eb51231ee7d43c3c"}]}
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "thumb-entry-cfg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "a0072ead2e084fa187a75b0773daaa67049e027f25accaab3f057d394661cdd1"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "77c32e30d6271f94722c65be64c337fdc3198f5968f58c8a471c7f535b9ec312"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "ab774dc87818ac739045f28adeb45922ebd98b160b244d30152fa742b4880527"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "2677663f8759fd4f12a54b396ee1baac92a04cd54c3a043222118419459d97fc"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "116bcdc6515350b5ead0a38ad10813e2e9d8fa1461af2393d2a41c6a63b076c4"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "78f6865371666bd26be1c9093ffefd70d8bde21cc7646c07eb19725133420b6a"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "a8b4218113ff5f91854b56740366310d1d4acb466cd53f42ee8a06aa4939c58b"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "180cd717b89d64e95e6d238344651ad09b5e1ead67896b84b8fbde4adf166731"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "e2d363f5dec6ab544022883f1008e8c8e948ddd71bd97eaca0ac1630d7ff8448"
+    },
+    {
+      "path": "tests/test_thumb_entry_cfg.py",
+      "sha256": "5ff4ee1e37e28e8d1de368b647056de39bdd51d7f89b72bc06c18a4cddc11377"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

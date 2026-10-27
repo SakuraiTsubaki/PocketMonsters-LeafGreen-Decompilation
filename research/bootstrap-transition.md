@@ -1,3 +1,3 @@
-# Bootstrap ARM-to-Thumb transition
+# LeafGreen ARM-to-Thumb bootstrap transition
 
-The Japanese target follows twelve ARM words from `0x08000204` to `bx r1` at `0x08000230`. Literal `0x080003a5` at `0x08000244` proves the next executed code is Thumb at `0x080003a4`.
+All 7 cataloged releases were traced from the decoded entry target to a literal-backed register branch into Thumb state. Each transition target is required to equal the corresponding verified `AgbMain` address. Maps retain addresses, counts and code hashes but omit ARM instruction words and literal values.
