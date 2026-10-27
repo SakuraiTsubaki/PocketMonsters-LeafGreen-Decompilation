@@ -1,0 +1,3 @@
+# LeafGreen background reset reconstruction
+
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) preserve the same three-function reset cluster. Four cached background configurations are zeroed, the cached mode/visibility field is cleared, and display-control mode plus BG0-BG3 enable bits are removed through `GetGpuReg`/`SetGpuReg`. Per-release maps retain addresses, calls and code hashes without ROM bytes or instruction halfwords. `pret/pokefirered` commit `037335f4c725d7c9aecdac87066f2002b4bd7e14`, `src/bg.c`, is the naming basis.

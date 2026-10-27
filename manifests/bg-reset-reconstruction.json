@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "cluster": [
+    "ResetBgs",
+    "ResetBgControlStructs",
+    "SetTextModeAndHideBgs"
+  ],
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/reset_bgs_catalog.py",
+    "tool_sha256": "7b0ddcd8f1766c561dc4ee7fb98e7ef3427b2b004354d28a8fd13c4526a03520"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/bg_reset.c",
+      "sha256": "40030efe722941b2be8e6d02182fdb0c4a8d5956b25929fa65cd10c8edc1e69b"
+    },
+    {
+      "path": "analysis/bg-reset-summary.json",
+      "sha256": "fd5a7a618111112c5b35c87802f0d515e4443f28daa7abcb76c08e617cfa0149"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-bg-reset-map.json",
+      "sha256": "b2489efed04e02c2138f00bb15fdc06efb96c65caec85d507997bc10fbd45fb3"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-bg-reset-map.json",
+      "sha256": "c152ed82321d1fe703a847bd98b6834932a561be88926e696ec742a295d59d58"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-bg-reset-map.json",
+      "sha256": "4261ca7dabebec0ac88df0c0f426a067550f06d5a24bb2fd7e38dce4d70c2757"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-bg-reset-map.json",
+      "sha256": "73198d51795f543569116682bd5ede14c9c8658dde8020e1746f2e1eee6793f7"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-bg-reset-map.json",
+      "sha256": "681a5c334557f2f36902342535e1ec176e84c34a54da0a16af340014994b6506"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-bg-reset-map.json",
+      "sha256": "eb79741189287741602df071aa6b110ddaeea72a78c95c669bf1dbfa1c954d49"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-bg-reset-map.json",
+      "sha256": "8caef6311d57a017a15b87d6ad5366e84aac31246b552576a286fc41d5a58a69"
+    },
+    {
+      "path": "research/bg-reset-reconstruction.md",
+      "sha256": "1e404747632f29f4e40d4fdc0c0134fea5d5085205c4dce7068740bbec6d4c60"
+    },
+    {
+      "path": "tests/test_bg_reset_reconstruction.py",
+      "sha256": "3475e0b55c5b8d7f293c4051c09336c480521a0d8a09a99b1e44a72955a4637d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
