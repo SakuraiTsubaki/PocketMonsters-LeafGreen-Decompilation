@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "cluster": [
+    "SetDefaultFontsPointer",
+    "SetFontsPointer"
+  ],
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/font_pointer.c",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F8A00",
+          "code_sha256": "9719a2b884843be6266ef0a124d2e0f47e896f0f124ed9cd7876340b3b2affe0"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002C1C",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-j-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F79A0",
+          "code_sha256": "297efad3743593ea40fe981091d154da4ae6af6cb7f1c387929815acd24203e6"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002C1C",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-e-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F7A18",
+          "code_sha256": "0766c933fe894b6d4694e6e137240397cb1ea2629d8052b9113b394c606cae43"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002C30",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-e-rev1-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F7C34",
+          "code_sha256": "43be4ac5a5e532b3d4cec92e1dd4e30df4d05ab037d87d182e4f0d6c1df942a9"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002B9C",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-d-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F7CF4",
+          "code_sha256": "bab3166a0a74393c43bf455e5681572c353295e82799163497721ec94e01cc2d"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002B88",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-f-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F7C34",
+          "code_sha256": "43be4ac5a5e532b3d4cec92e1dd4e30df4d05ab037d87d182e4f0d6c1df942a9"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002B9C",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-i-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080F7D1C",
+          "code_sha256": "aef546150a784e531c5803cec8a239df19babfa51b3fb38a18c5b3cdcc2537de"
+        },
+        "SetFontsPointer": {
+          "address": "0x08002B88",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpg-s-rev0-retail-font-pointer-bootstrap-map.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

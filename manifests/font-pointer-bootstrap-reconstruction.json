@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "cluster": [
+    "SetDefaultFontsPointer",
+    "SetFontsPointer"
+  ],
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/font_pointer_catalog.py",
+    "tool_sha256": "0d14c7096eb8bacfe148a96ee95e53e6cbd57864aee98fbdabf264441e3eebe2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/font_pointer.c",
+      "sha256": "4d7bed8c1b34c217c6bc598f88e978c2f7ae8ac8cab8b940b33d114cf04f907e"
+    },
+    {
+      "path": "analysis/font-pointer-bootstrap-summary.json",
+      "sha256": "0d473f657b92a03f7ab6c1c75c78e6fce17d95836e7fbf0391228ae4ee5988ce"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "c12d02665f9df1923a2db65f7edf668207116579f09840d407fad9f13887bc66"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "0ade4a2636e2b91c1063b31afc7a35b1e2b31781cfa4b15599722e2699c16a86"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-font-pointer-bootstrap-map.json",
+      "sha256": "e509dffd63b9bc9fdc93927499f0ad2c8f1363fa60b9485948deb1adf73566fd"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "fcca4bbfcdc950114f9cec3f680255edbe4b5b9640d6e4c88ebac3399fecd9b1"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "44416d1d8101e76244d4cdd7a4ddb50e203f46afdc30a88eb579967a100a4d83"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "0f9c91496e9c94d6f7e58a3be130284849f708270734836406e5fe8307264a65"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "3f661246cf680d2e16d76a1c5195d133e9035b67ca8726926280c0712a78a769"
+    },
+    {
+      "path": "research/font-pointer-bootstrap-reconstruction.md",
+      "sha256": "1371dcba4969ccfc089856c896e2b1df52b5c855d4c002d7908bee0c0096aae4"
+    },
+    {
+      "path": "tests/test_font_pointer_bootstrap_reconstruction.py",
+      "sha256": "ace30f069bbb74e810c518d058216ea173445f179decc37d4a53534a0c02c3bd"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

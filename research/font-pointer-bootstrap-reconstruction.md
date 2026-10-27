@@ -1,0 +1,3 @@
+# LeafGreen default font-pointer reconstruction
+
+The Japanese release `bpg-j-rev0-retail` is the origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) resolve `SetDefaultFontsPointer` from `AgbMain` and follow its sole direct call to `SetFontsPointer`. The wrapper selects the game's default font-info table (`gFontInfos`); the callee stores it as the active table. Both functions have one observed return and no branch edges. Maps retain addresses and hashes without ROM bytes or instruction halfwords, using `pret/pokefirered` commit `037335f4c725d7c9aecdac87066f2002b4bd7e14` as the naming and behavior reference.
