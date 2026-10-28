@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "function": "InitFlashTimer",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_flash_timer_catalog.py",
+    "tool_sha256": "7e99f0d2b6fcb7212625b43e5a31def9b56bcac165ed5d951618ffff270760c7"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/init_flash_timer.c",
+      "sha256": "7b2a18ce2c6d1fa2790e684967e4a1aa80408073f7406640aed5edd28392570b"
+    },
+    {
+      "path": "analysis/init-flash-timer-summary.json",
+      "sha256": "ef8b550798fb8186b1bc7a6ea678b93131c55283fb3ca1cbba74f6c359398b4c"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-init-flash-timer-map.json",
+      "sha256": "9f5cabfac827386e2facb2cea106cb3b04cc4f9e49ae78c2e58a4a1c192b6ae4"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-init-flash-timer-map.json",
+      "sha256": "3574e64d1bf2b7887f17e725686da532c7e443d9b5391599eaa60b96595fbd94"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-init-flash-timer-map.json",
+      "sha256": "e73d87afaede8c93a7b5239a3bfed9e1a8021d95221c2613e57005143ead5d60"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-init-flash-timer-map.json",
+      "sha256": "ad440a6dc1cd53f3567fbe7011a7aa2b23518b329257606386f229218406917c"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-init-flash-timer-map.json",
+      "sha256": "a1df2cc75540f254e759a1019496e8b4423455a43efce36ea4297f367e6d6206"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-init-flash-timer-map.json",
+      "sha256": "089b4dc605eafb5df849350316e8063f395c6879d474425a0f2fc67641ee593e"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-init-flash-timer-map.json",
+      "sha256": "7cd3ab02471a50fff3fe986605e22fcff7c9785557d9bebd7619efa1e7452a7b"
+    },
+    {
+      "path": "research/init-flash-timer-reconstruction.md",
+      "sha256": "48c3efa8c45b0e49898df4e3a979977f4e8a18b79168ec44df93ba2a2627a60d"
+    },
+    {
+      "path": "tests/test_init_flash_timer_reconstruction.py",
+      "sha256": "4103e815fc25e625fa62e49818a73cc5b2dd38295966eaa4c4bcac071e1c97b0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
