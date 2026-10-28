@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/check_flash_memory_catalog.py",
+    "tool_sha256": "c6513d8733b80f16f5cceb59dd1735738c9da6db95bcf680e33aa13f56a6c683"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/check_flash_memory.c",
+      "sha256": "d5a99f21f5bd22d8374439df49fb709f9a89e7fb7191ecf23079fe3a6f94e21d"
+    },
+    {
+      "path": "analysis/check-flash-memory-summary.json",
+      "sha256": "9f6bff5b1e6e7583ee726d60b9f40f80cc3a6902ca6ac63222810381b52d9376"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-check-flash-memory-map.json",
+      "sha256": "da092c2fdcb7657b6383bc800838bd90df829c1f5643654a63683317aa38c162"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-check-flash-memory-map.json",
+      "sha256": "bfa6d2a707b5538815e4f38ab52904a0281da5e807c084c7780bd874e05b686b"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-check-flash-memory-map.json",
+      "sha256": "0a4e9872c2e17e2e13b749afa3427992240318a6e9a0ba447c79313bc05d1b97"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-check-flash-memory-map.json",
+      "sha256": "e44db8ad5192f115bed6f8166b9c7b9318ad0320749bd6c3594985c53fbdfca9"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-check-flash-memory-map.json",
+      "sha256": "78a96ff54d1eb3929eb15f598fde4c53d2fca725e89a02737b9239cf9446228b"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-check-flash-memory-map.json",
+      "sha256": "bcb89284f217d6f9f8c71ca036bc809cf26ebc982938e2c244ea19089c37c548"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-check-flash-memory-map.json",
+      "sha256": "d6f2e01bb57a550e4a4ef36c655be7c4f847c0f463ab5a69fac35539d102b7ac"
+    },
+    {
+      "path": "research/check-flash-memory-reconstruction.md",
+      "sha256": "e9b2a0c32c2214278e62212f2325b82f4dbbbd1165f2d61f56f06189d2a80663"
+    },
+    {
+      "path": "tests/test_check_flash_memory_reconstruction.py",
+      "sha256": "dd8ad58e5cd5eedbb86f485b0dd80db69ef83ba833cc83f85c6ae57f79297695"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
