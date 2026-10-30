@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "function": "RegisterRamReset",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/register_ram_reset_catalog.py",
+    "tool_sha256": "6d8a5bd06900ab9c97437477759a554b21fb881e946ecaedb54beae8a47974f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/register_ram_reset.s",
+      "sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db"
+    },
+    {
+      "path": "analysis/register-ram-reset-summary.json",
+      "sha256": "3f4d357d2cbc1673ec5b3a26f7e3531d65d178675837bc8f08dd69550cbd2dec"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-register-ram-reset-map.json",
+      "sha256": "0ea6b28d5d1fe03fdde3e17e8c8b29749a62334275cf0000a186201b2a6996d0"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-register-ram-reset-map.json",
+      "sha256": "305f05a2421e02b75ada674e85e414e1c729fff5b7590908bd3bec7421f78293"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-register-ram-reset-map.json",
+      "sha256": "85737722b22216d75b74dd9f90ed49dd813bb12c2e78229d2be145351cfd57f8"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-register-ram-reset-map.json",
+      "sha256": "eedf7264c086dae31b74c582f5d0166fd7fa2e06bbff06223c93f6fb1786d44f"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-register-ram-reset-map.json",
+      "sha256": "5df87e83e586ad90c4c658e3d12eeb23ea5d921e0fdc4e756114cbd41d3a6f61"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-register-ram-reset-map.json",
+      "sha256": "f176687aa8e25b4830bd74f31e7adfa9b70ee441681e494e0129bd2eda79d70f"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-register-ram-reset-map.json",
+      "sha256": "0ef43f74ead86a38abf75f21e486a4f67f4ae3029b47f35905cc631691094fac"
+    },
+    {
+      "path": "research/register-ram-reset-reconstruction.md",
+      "sha256": "1b2fa8a16242abe93ede1128a0c28ea4d2e733db224130be286db35e95b873b7"
+    },
+    {
+      "path": "tests/test_register_ram_reset_reconstruction.py",
+      "sha256": "8171c26aad1d5481007cde1faa77eeebb02691abf86ef9f870bf8215925df537"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
