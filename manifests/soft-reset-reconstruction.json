@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "function": "SoftReset",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/soft_reset_catalog.py",
+    "tool_sha256": "5b8b5947dab5a77687a5012fd79ec2c3a5f83e8c6759e51ea56cb70a4383918b"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/soft_reset.s",
+      "sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd"
+    },
+    {
+      "path": "analysis/soft-reset-summary.json",
+      "sha256": "e9d0a4d9a2c2e8ce55cd46930a72e878266afaf831ccff0b98d76381c1f08ff4"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-soft-reset-map.json",
+      "sha256": "2af5e5b9eb4d25d4e31bdd2b10e8cff96994de517881c93b8d898e87446664f4"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-soft-reset-map.json",
+      "sha256": "759ab6dfd9f7a100251cb2c44e48b6b44cc772e43f1a389a158305882b5b6e90"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-soft-reset-map.json",
+      "sha256": "a9f8d6caa940744cf5c7ace2e5f1be1b6da3a9ee04308bc3a6b9cf882b7e814c"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-soft-reset-map.json",
+      "sha256": "e77e40c97b50bf4f61b62d0f2d9fd1ec6a9192758104f69fd09a53500648b4fd"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-soft-reset-map.json",
+      "sha256": "6bbd08be50429d8dc5b958a5eea453992c2bb15b456ea564d234fac27495e39b"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-soft-reset-map.json",
+      "sha256": "33a14f83b548be0c98ac12a76ae7c4d65a0cfbcfa07f8b8877ede5bd6f17aee9"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-soft-reset-map.json",
+      "sha256": "f723cc8facb8cbfb0c50339589cf5d31d5365d0538e4f01b9d5c855f6bc2a2bd"
+    },
+    {
+      "path": "research/soft-reset-reconstruction.md",
+      "sha256": "2c55708584007c2aea4aeada46f78e3a73b16ea35c33db799c21bf3ecea3f0f9"
+    },
+    {
+      "path": "tests/test_soft_reset_reconstruction.py",
+      "sha256": "e0e9f73f06a79e5b4bf7533a393f0f996dbd7924f3b341d49033bf86e6434a60"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
