@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/call_via_catalog.py",
+    "tool_sha256": "e30748f1d1af711d3815d8e1dd50ab9d242d8b340cf2a6cef8d59f753719c5be"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-summary.json",
+      "sha256": "f4d77882743e8dc187585c0f093a99de084124b4f986723633640d2638545688"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-call-via-map.json",
+      "sha256": "c92a0ea20500e7cfbcad7f3b42979509d46ebbf23c3b33f024a201c3108661e5"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-call-via-map.json",
+      "sha256": "9f664e24e6f61dae0e3a5420d1bacf2b93ea31868974ccfed40fb735c85d2b85"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-call-via-map.json",
+      "sha256": "a5631965f8040f30c0cc79ee947b2eeec28fbca0fb8ec489b027e3f825422464"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-call-via-map.json",
+      "sha256": "4e63a7f7fac8f98707c33d61532c17fbbc4381c01c1aa3ca40aa30fb6a5e5ff5"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-call-via-map.json",
+      "sha256": "d73c550964dfc125bfbbbfc491ecd8f6f3824295bafc7440fe03e35c7d4e826d"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-call-via-map.json",
+      "sha256": "3a322298c0496060cb27eb740a84d8dd3d836ad6de664a7b5d93769a1d0b7c61"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-call-via-map.json",
+      "sha256": "e409a9c2f1dc1eeeb4c2efcdf81c31913d19c88e10e1cbcff37fcd1bdbf6ccff"
+    },
+    {
+      "path": "research/call-via-reconstruction.md",
+      "sha256": "4f3364b3574c057e626200366643774843afcc284453723371c6a3afd9cef8e2"
+    },
+    {
+      "path": "tests/test_call_via_reconstruction.py",
+      "sha256": "03d9b3cf7ea9942eb4401c3db5a38e42caa31d6fadc8d88e5440d174e0c0af23"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

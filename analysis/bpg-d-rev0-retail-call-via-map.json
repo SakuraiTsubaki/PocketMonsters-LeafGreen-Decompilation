@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-d-rev0-retail",
+    "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/call_via_stubs.s",
+  "source_sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908",
+  "functions": {
+    "_call_via_r0": {
+      "address": "0x081E7A6C",
+      "rom_offset": 1997420,
+      "range_end_exclusive": "0x081E7A70",
+      "length": 4,
+      "code_sha256": "8476eedbf3f929b0326c77be43623ab9c0490ac1a86b8764b2a1c44e78bc2b54",
+      "branch_exchange_register": "r0",
+      "register_number": 0,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r1": {
+      "address": "0x081E7A70",
+      "rom_offset": 1997424,
+      "range_end_exclusive": "0x081E7A74",
+      "length": 4,
+      "code_sha256": "c432c565f57e9ec434710edef8c1a20a1acfdfc7e21427a044287ee24db02408",
+      "branch_exchange_register": "r1",
+      "register_number": 1,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r2": {
+      "address": "0x081E7A74",
+      "rom_offset": 1997428,
+      "range_end_exclusive": "0x081E7A78",
+      "length": 4,
+      "code_sha256": "b6e741ccff336746fdcf62bc30c37deaa54afc60e5be6f8d1c33cfd2b8184ebc",
+      "branch_exchange_register": "r2",
+      "register_number": 2,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r3": {
+      "address": "0x081E7A78",
+      "rom_offset": 1997432,
+      "range_end_exclusive": "0x081E7A7C",
+      "length": 4,
+      "code_sha256": "37621e9c1582594d06380bfb47f5e8e55f76186af57d8455c5cae1d89bfe7742",
+      "branch_exchange_register": "r3",
+      "register_number": 3,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r4": {
+      "address": "0x081E7A7C",
+      "rom_offset": 1997436,
+      "range_end_exclusive": "0x081E7A80",
+      "length": 4,
+      "code_sha256": "8b3dc9b167633731ff159f97db499a53741812de435527313c7feaa61a2d4e95",
+      "branch_exchange_register": "r4",
+      "register_number": 4,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r5": {
+      "address": "0x081E7A80",
+      "rom_offset": 1997440,
+      "range_end_exclusive": "0x081E7A84",
+      "length": 4,
+      "code_sha256": "9cebcc153aa64575ced8a6c096f91ee62171cec618a62772b63a83d7216cfc01",
+      "branch_exchange_register": "r5",
+      "register_number": 5,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r6": {
+      "address": "0x081E7A84",
+      "rom_offset": 1997444,
+      "range_end_exclusive": "0x081E7A88",
+      "length": 4,
+      "code_sha256": "a69cde590b057639cb563cde0b036a97c071c364d199decf423fa3151d2c5ff9",
+      "branch_exchange_register": "r6",
+      "register_number": 6,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r7": {
+      "address": "0x081E7A88",
+      "rom_offset": 1997448,
+      "range_end_exclusive": "0x081E7A8C",
+      "length": 4,
+      "code_sha256": "0f624c88e23912a3550edda387843c283858e2e5bd39af8f2cf55dbc8a5b1e78",
+      "branch_exchange_register": "r7",
+      "register_number": 7,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r8": {
+      "address": "0x081E7A8C",
+      "rom_offset": 1997452,
+      "range_end_exclusive": "0x081E7A90",
+      "length": 4,
+      "code_sha256": "03100c7b35da755e258907b9ba2fa25838d5cf641c8c38bbd413fdede4657e63",
+      "branch_exchange_register": "r8",
+      "register_number": 8,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r9": {
+      "address": "0x081E7A90",
+      "rom_offset": 1997456,
+      "range_end_exclusive": "0x081E7A94",
+      "length": 4,
+      "code_sha256": "e13c10cc5cc80bd1867057d3677e1c7c11998dbd55c55b337039e5ee24d46cd0",
+      "branch_exchange_register": "r9",
+      "register_number": 9,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_sl": {
+      "address": "0x081E7A94",
+      "rom_offset": 1997460,
+      "range_end_exclusive": "0x081E7A98",
+      "length": 4,
+      "code_sha256": "c9cbb408d0b9d84a638bd6aaf829f3e45bba8654c4aa3d37f97cce5fe80fba44",
+      "branch_exchange_register": "sl",
+      "register_number": 10,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_fp": {
+      "address": "0x081E7A98",
+      "rom_offset": 1997464,
+      "range_end_exclusive": "0x081E7A9C",
+      "length": 4,
+      "code_sha256": "9d186a7b46bd6cda727f41c14185ecba9ea13e096a798244bf240e771315aed9",
+      "branch_exchange_register": "fp",
+      "register_number": 11,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_ip": {
+      "address": "0x081E7A9C",
+      "rom_offset": 1997468,
+      "range_end_exclusive": "0x081E7AA0",
+      "length": 4,
+      "code_sha256": "7d52b72fe1270167fada3cdfceefa6280ace0dd958bf8ca44b60771ed5600c25",
+      "branch_exchange_register": "ip",
+      "register_number": 12,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_sp": {
+      "address": "0x081E7AA0",
+      "rom_offset": 1997472,
+      "range_end_exclusive": "0x081E7AA4",
+      "length": 4,
+      "code_sha256": "d78820eaaef0581a26b5fd7cebf798d4aceb2171071734e89f6337eb0924a67d",
+      "branch_exchange_register": "sp",
+      "register_number": 13,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_lr": {
+      "address": "0x081E7AA4",
+      "rom_offset": 1997476,
+      "range_end_exclusive": "0x081E7AA8",
+      "length": 4,
+      "code_sha256": "e287dff864f37f3c71cdb140d7eebe15385d894bc81c583e5b5194ce85aee76b",
+      "branch_exchange_register": "lr",
+      "register_number": 14,
+      "trailing_instruction": "nop"
+    }
+  },
+  "verified_layout": {
+    "function_count": 15,
+    "suite_length": 60,
+    "word_aligned": true,
+    "register_ram_reset_to_suite_delta": 40,
+    "suite_signature_match_count": 2,
+    "selected_by_verified_sdk_layout": true,
+    "intervening_functions": [
+      "SoftReset",
+      "Sqrt",
+      "VBlankIntrWait"
+    ]
+  },
+  "cross_reference": {
+    "register_ram_reset_map": "analysis/bpg-d-rev0-retail-register-ram-reset-map.json",
+    "register_ram_reset_map_sha256": "eedf7264c086dae31b74c582f5d0166fd7fa2e06bbff06223c93f6fb1786d44f",
+    "soft_reset_map": "analysis/bpg-d-rev0-retail-soft-reset-map.json",
+    "soft_reset_map_sha256": "e77e40c97b50bf4f61b62d0f2d9fd1ec6a9192758104f69fd09a53500648b4fd"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "ld_script.ld",
+    "section_pattern": "libgcc.a:_call_via_rX.o(.text)"
+  },
+  "raw_rom_bytes_included": false
+}
