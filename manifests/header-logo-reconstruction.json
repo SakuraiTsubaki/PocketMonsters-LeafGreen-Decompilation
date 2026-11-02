@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/header_logo_catalog.py",
+    "tool_sha256": "55641a0145cf323334c26b9aae9f4dc344be0043b2c2e057bd0a2dc470dae212"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/header-logo-summary.json",
+      "sha256": "684ef1e9b30b78209b9974a253c35e5dd2d7899f69489e4d8705a002f39ef4e3"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-header-logo.json",
+      "sha256": "63ec248c1769eff3ab70093f8631372bf8199ee636583dec87334ef17539089a"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-header-logo.json",
+      "sha256": "7c7a0d3f0d9a3486dfbf9981cb45011e38691b3afc65efb20823070d8427dc55"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-header-logo.json",
+      "sha256": "67ba4e2ab55b114bb37bb80d2a83ab61b98eb830d989c423969cbe16ccbd380b"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-header-logo.json",
+      "sha256": "a270a71903c758722bfdc9133723e3337bb1ba35179af2c6a1b56895ca174c77"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-header-logo.json",
+      "sha256": "1b1863bd555628d97db9408dd77cec8691f1c57e0394dea78d872979a13046db"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-header-logo.json",
+      "sha256": "a88d951800eee2ab9f7e3f3e05365e3d662c5980a2283ae18ce2d46f6e7db938"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-header-logo.json",
+      "sha256": "321c7eb1fc678338d4c5be8f798ec7b535f186e88941e11e6a4702fd918218d7"
+    },
+    {
+      "path": "research/header-logo-reconstruction.md",
+      "sha256": "023e88ee89f40278ca6d1b5560b7b3f897bde563fddcbff96bb5c11911615a06"
+    },
+    {
+      "path": "tests/test_header_logo_reconstruction.py",
+      "sha256": "3e5625310bb8b2df4db7a696abda5552cd4922d4251fde060410160ded5ea54d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
