@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-e-rev0-retail",
+    "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 3,
+    "name": "venusaur"
+  },
+  "source": "src/venusaur_species_sprite_tables.asm",
+  "source_sha256": "2138e62053e6b1deacd7eb7b2df6c546511effa77205b0c5512872e26a05324c",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2314400,
+      "table_offset": 2314376,
+      "source_offset": 13832364,
+      "size": 2048,
+      "tag": 3
+    },
+    "back": {
+      "entry_offset": 2319680,
+      "table_offset": 2319656,
+      "source_offset": 13833748,
+      "size": 2048,
+      "tag": 3
+    },
+    "palette": {
+      "entry_offset": 2323200,
+      "table_offset": 2323176,
+      "source_offset": 13833708,
+      "tag": 3
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/venusaur-front-bpg-e-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3",
+      "extraction": {
+        "source_offset": 13832364,
+        "compressed_length": 1344,
+        "compressed_sha256": "6e0136cc1e2e81af605c5fcb5a2652af3426c52091bae18c9eee5a95139d62eb",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "70ded6670f9e44c527a68b259c1c71e6017457e2a00cc06e5a0d223494d9c2b2",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpg-e-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297",
+      "extraction": {
+        "source_offset": 13833748,
+        "compressed_length": 1224,
+        "compressed_sha256": "e56201c9881b6d92df35fcd21e8883430858167c9b91ac911285f2b179933315",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "1d831006fc9934de4774dba7b09a5427b3ca71acfb5ff97caf3f202e45509373",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpg-e-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646",
+      "extraction": {
+        "source_offset": 13833708,
+        "compressed_length": 40,
+        "compressed_sha256": "9da0bae4f1f9877fef39fba2e3aa7a5057b7fc73463e1911f23b3fe0fd6d37c0",
+        "decompressed_length": 32,
+        "decompressed_sha256": "3e842291db25eb4e375beb0a569aa548d1f499058f2c469a7dcd276ad755efaf",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
