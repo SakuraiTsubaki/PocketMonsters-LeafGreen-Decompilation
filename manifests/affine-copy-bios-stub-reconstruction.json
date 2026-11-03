@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/affine_copy_bios_stub_catalog.py",
+    "tool_sha256": "8ffc37ffdc5fbbf7b11c55cb8bcd88075c8d0eaa34c3fdeb0565300a20201e79"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stub-summary.json",
+      "sha256": "9ebfdf66457353afcd21e5a08c7ed75dfda63a2521a176f1faefe5d87156f4fa"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "acd490a5b6923e221a4e825427cffe2b24e09e8bf3359703f169e44b31c95b2e"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "88b5633cf1e960ea0c31124f19a83c92a646071c2437a05da1be4edb6048c91e"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "5a00b703abe4d4614a43a6931e6154e06ebcc303affe5881688383082fd66e9d"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "ee0477158630ebfc1c75a921c5467707d7ee8a23881fb87fa5546339bb212d67"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "393e1e1db92fac15201bfcf9a4a14041842a0eca97855566c2f4f640beed905f"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "08d34e0f00a1c4f9abe4a43d747158604dcf68a674d1f9253b070a9bb39db63a"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "a8ce860618a26363bdd3bd216576e540f1922004803d1558cf4ddd0beef722ea"
+    },
+    {
+      "path": "research/affine-copy-bios-stub-reconstruction.md",
+      "sha256": "e05c09c89ff27d9c86a69f3009df03b7bed75b3a7fc25c84f7e6ea742d37e982"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stub_reconstruction.py",
+      "sha256": "c28b33b27ff11b859e20e6a3faece2cae7df040bce5a9bb5c209ddf2dc7b0de4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

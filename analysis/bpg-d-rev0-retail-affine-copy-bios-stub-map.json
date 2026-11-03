@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-d-rev0-retail",
+    "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/affine_copy_bios_stubs.s",
+  "source_sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7",
+  "functions": {
+    "BgAffineSet": {
+      "address": "0x081E7A20",
+      "rom_offset": 1997344,
+      "range_end_exclusive": "0x081E7A24",
+      "length": 4,
+      "code_sha256": "7db5376a9255b6f3b335a2a0553165e6f8fb14695e62f9b3797fb876191ee72a",
+      "software_interrupt": 14,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -16
+    },
+    "CpuFastSet": {
+      "address": "0x081E7A24",
+      "rom_offset": 1997348,
+      "range_end_exclusive": "0x081E7A28",
+      "length": 4,
+      "code_sha256": "dedc152a89df8aadc9dc9526881c29e92f681504cf9bf438bbac1c6362fd9b42",
+      "software_interrupt": 12,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -12
+    },
+    "ObjAffineSet": {
+      "address": "0x081E7A40",
+      "rom_offset": 1997376,
+      "range_end_exclusive": "0x081E7A44",
+      "length": 4,
+      "code_sha256": "9f004ab9239029bc7e051e24763751da64c47109e542f1d19f241ac89ceccb39",
+      "software_interrupt": 15,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count",
+        "r3:offset"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": 16
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E7A30",
+    "family_relative_offsets": {
+      "BgAffineSet": [
+        -16,
+        -12
+      ],
+      "CpuFastSet": [
+        -12,
+        -8
+      ],
+      "ObjAffineSet": [
+        16
+      ]
+    },
+    "all_signatures_globally_unique": true
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpg-d-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "6f97f433aafe60f96c2c7db1f4008ce42d79e9bd326824fc697018b8f619c344"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
