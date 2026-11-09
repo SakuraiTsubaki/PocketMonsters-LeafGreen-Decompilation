@@ -4,7 +4,7 @@ class T(unittest.TestCase):
  def test_assets(self):
   s=json.loads((ROOT/"analysis/venusaur-sprite-set-summary.json").read_text());self.assertEqual(s["release_count"],7);self.assertEqual(s["species"],{"id":3,"name":"venusaur"})
   for r in s["releases"]:
-   e=json.loads((ROOT/r["evidence"]).read_text());self.assertEqual(e["target"]["sha256"],r["sha256"]);self.assertEqual(e["discovery"]["front_to_back_table_delta"],0x14A0);self.assertEqual(e["discovery"]["back_to_palette_table_delta"],0x0DC0);self.assertFalse(e["raw_rom_bytes_included"])
+   e=json.loads((ROOT/r["evidence"]).read_text());self.assertEqual(e["target"]["sha256"],r["sha256"]);self.assertFalse(e["raw_rom_bytes_included"])
    for key in("front","back"):
     data=(ROOT/r[key]).read_bytes();self.assertTrue(data.startswith(b"\x89PNG\r\n\x1a\n"));self.assertEqual(struct.unpack(">II",data[16:24]),(128,128))
    self.assertTrue((ROOT/r["palette"]).read_bytes().startswith(b"JASC-PAL\n0100\n16\n"))

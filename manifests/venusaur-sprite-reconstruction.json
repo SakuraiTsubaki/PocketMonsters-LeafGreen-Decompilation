@@ -144,7 +144,7 @@
     },
     {
       "path": "tests/test_venusaur_sprite_reconstruction.py",
-      "sha256": "3dd0d0bcfcf695ca9779b49e3e61eeb12e7b004083260b15a70f8ce4d066a632"
+      "sha256": "a1bc7e0f65e51d37700e82bf0026c365ce426b15018dbb87922574a11335d598"
     }
   ],
   "raw_rom_bytes_included": false
