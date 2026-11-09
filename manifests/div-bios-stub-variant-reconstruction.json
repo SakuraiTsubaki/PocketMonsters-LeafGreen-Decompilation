@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "LeafGreen",
+  "function": "Div",
+  "family_profile": "frlg-language-variant",
+  "origin_reference": "bpg-j-rev0-retail",
+  "origin_availability": "absent",
+  "release_count": 7,
+  "present_release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/frlg_div_variant_catalog.py",
+    "tool_sha256": "068bd20c7416f368661541e83635238343fb17a207cad9bce719012c290015b8"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "81c858928cd70702e65c7c652179fa7cf1ce491d57a102ff3b0e40d22e95db52"
+    },
+    {
+      "path": "src/div_bios_stub.s",
+      "sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0"
+    },
+    {
+      "path": "analysis/div-bios-stub-variant-summary.json",
+      "sha256": "b7e01fbe4c8ea1bceffad057a8a53a2df69d6ee33832300546572b79bc103509"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "295a0cabe99576374fd20c94c778987a4cf28a4f41c911be96f760b9d14c7d83"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "5b0ab14d779545f5100228fa904f781549bbe8fa3d35185de1f3aeece2a08789"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-div-bios-stub-variant-map.json",
+      "sha256": "3c4702d5a7500dd3282667f58994c8701d2dfab228cea27c6c2244b46699d955"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "d2dd97d8e331ab6220e6b93ab18618a094457da6ddbd49045c27631313a044fc"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "a57eec9c5a10239716837ce9c13edcbdab026c890a2a81f39012795a68dbba03"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "73c3055bae0b3519ba7c1cf82ba7a0e421edaaa7a81e54e4f5d9085b379ee207"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "f2611083e7a021fba48b0de287c33a32da361d961139df19071527cfc6b91e91"
+    },
+    {
+      "path": "research/div-bios-stub-variant-reconstruction.md",
+      "sha256": "cecee651b49ab9b38fcb7e5c1c6eb58345a0e49c42990f8b88b8de3e38c91637"
+    },
+    {
+      "path": "tests/test_div_bios_stub_variant_catalog.py",
+      "sha256": "07070f32446f43e03e08553096bd680fc5694203e704fb258db5db25511bbd18"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

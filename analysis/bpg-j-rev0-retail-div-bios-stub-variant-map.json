@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-j-rev0-retail",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "availability": "absent",
+  "source_applies": false,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": null,
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081C7A68",
+    "expected_relative_offset_when_present": -4,
+    "signature_match_count": 0
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpg-j-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "a667c768e071462dfd3765e72312b91419f892c2639cbe3f7418939df508b233"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
