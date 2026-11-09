@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-j-rev0-retail",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 6,
+    "name": "charizard"
+  },
+  "source": "src/charizard_species_sprite_tables.asm",
+  "source_sha256": "a2075643f4e1a5be080ef6e2b2b3f97d5998a8334d639137991eae1ca20a1c77",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2049692,
+      "table_offset": 2049644,
+      "source_offset": 12792776,
+      "size": 2048,
+      "tag": 6
+    },
+    "back": {
+      "entry_offset": 2054972,
+      "table_offset": 2054924,
+      "source_offset": 12794092,
+      "size": 2048,
+      "tag": 6
+    },
+    "palette": {
+      "entry_offset": 2058492,
+      "table_offset": 2058444,
+      "source_offset": 12794052,
+      "tag": 6
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charizard-front-bpg-j-rev0-retail.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902",
+      "extraction": {
+        "source_offset": 12792776,
+        "compressed_length": 1274,
+        "compressed_sha256": "9e38450486694f741397b49f7ae269e821cf9bfda31d4a7b84ee11e293672421",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "209a94b2595e4d605f200a89f761cf60cd69f246d811dc4cfcbdda93446bf97c",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-bpg-j-rev0-retail.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb",
+      "extraction": {
+        "source_offset": 12794092,
+        "compressed_length": 1036,
+        "compressed_sha256": "0c8313bb1de98ab8836080baa7cfaa6319c05f885e579be003edd7e9dd1d332c",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "8ae0d4a0c2c441e85d6246be111cffac960625198e3432d209f27805726d4e86",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpg-j-rev0-retail.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c",
+      "extraction": {
+        "source_offset": 12794052,
+        "compressed_length": 40,
+        "compressed_sha256": "5bbb9495219f206701aa41b88555869852c16c7dc8ef518ee8220ed66996e66a",
+        "decompressed_length": 32,
+        "decompressed_sha256": "a879d45b16ca3c7fb4a8b2b1b700f8f4a0c1ac383cf381eee89e7efb55325089",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
