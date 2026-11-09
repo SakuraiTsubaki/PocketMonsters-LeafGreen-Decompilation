@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 7,
+    "name": "squirtle"
+  },
+  "source": "src/squirtle_species_sprite_tables.asm",
+  "source_sha256": "55054ccc0ace4a938161de025b7f89b9382adc57830083d4884693d5f67d8583",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2285924,
+      "table_offset": 2285868,
+      "source_offset": 13844792,
+      "size": 2048,
+      "tag": 7
+    },
+    "back": {
+      "entry_offset": 2291204,
+      "table_offset": 2291148,
+      "source_offset": 13845500,
+      "size": 2048,
+      "tag": 7
+    },
+    "palette": {
+      "entry_offset": 2294724,
+      "table_offset": 2294668,
+      "source_offset": 13845460,
+      "tag": 7
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/squirtle-front-bpg-i-rev0-retail.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26",
+      "extraction": {
+        "source_offset": 13844792,
+        "compressed_length": 666,
+        "compressed_sha256": "7e3df4943f530671166440a05a13b63671e96660a1f55bf81d0a78c47c72560e",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "064c75592e475e71aab15acfc4de144c15807974a8d2fd32bc8855a2e95eda87",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-bpg-i-rev0-retail.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187",
+      "extraction": {
+        "source_offset": 13845500,
+        "compressed_length": 646,
+        "compressed_sha256": "addb6c121341defda439543f07a19e8a0b60c2ac44cb83ed2c76b3d21154febf",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "5f8697f0798e4e691ce6f13efd8bdb22a6e119cbf9b8812ac47a14dda9959b0a",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-bpg-i-rev0-retail.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d",
+      "extraction": {
+        "source_offset": 13845460,
+        "compressed_length": 40,
+        "compressed_sha256": "c20ed70d1dfc2bc551f43e6adf17900c2611f0412e9453013b5a193e9117838e",
+        "decompressed_length": 32,
+        "decompressed_sha256": "91e8d42c685214f6eaf47b323164fc637e26e3b0476993c5cf508c3df2a7f80e",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

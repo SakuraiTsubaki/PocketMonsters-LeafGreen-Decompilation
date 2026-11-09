@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 4,
+    "name": "charmander"
+  },
+  "source": "src/charmander_species_sprite_tables.asm",
+  "source_sha256": "3f2bfee2bcb795d2bea5d17e21204bc568468b6066b5a5110cd84fc86c3ae758",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2285900,
+      "table_offset": 2285868,
+      "source_offset": 13836060,
+      "size": 2048,
+      "tag": 4
+    },
+    "back": {
+      "entry_offset": 2291180,
+      "table_offset": 2291148,
+      "source_offset": 13836772,
+      "size": 2048,
+      "tag": 4
+    },
+    "palette": {
+      "entry_offset": 2294700,
+      "table_offset": 2294668,
+      "source_offset": 13836732,
+      "tag": 4
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmander-front-bpg-i-rev0-retail.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5",
+      "extraction": {
+        "source_offset": 13836060,
+        "compressed_length": 670,
+        "compressed_sha256": "b2d6a996bb04977a720688ec047b7ab024058ac720deea3fd0726bbdb65d7c33",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "99512f72225d543bb4ce136380e424df45de4640b8a4c2098afa5010a2d2da64",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-bpg-i-rev0-retail.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5",
+      "extraction": {
+        "source_offset": 13836772,
+        "compressed_length": 643,
+        "compressed_sha256": "2cedf39b5ec653d14f91aee2a8a791f5a6888018af3423e9cfd78ecbefd2c207",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "26903209adf6c1f18df6e155cfda9340eafb8f62bdc623f74a35ff23305fbd45",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-bpg-i-rev0-retail.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940",
+      "extraction": {
+        "source_offset": 13836732,
+        "compressed_length": 40,
+        "compressed_sha256": "9442316da242f19cbd18440454665be71e67f88514dd190a2c87362e1c711cb0",
+        "decompressed_length": 32,
+        "decompressed_sha256": "766e7e39bdea4f311a8335306506792ee2d688ad0ef8bd5b67819de31f72d83b",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
