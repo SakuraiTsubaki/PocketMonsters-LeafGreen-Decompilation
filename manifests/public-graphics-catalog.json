@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "LeafGreen",
-  "asset_count": 211,
+  "asset_count": 274,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/catalog_public_graphics.py",
@@ -35,6 +35,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-front-bpg-j-rev0-retail.png",
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-bpg-j-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-j-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-j-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-j-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-j-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-j-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
     },
     {
       "path": "graphics/pokemon/charizard-back-bpg-j-rev0-retail.png",
@@ -83,6 +107,18 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-j-rev0-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-j-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-j-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-j-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-j-rev0-retail.png",
@@ -181,6 +217,54 @@
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
     },
     {
+      "path": "graphics/pokemon/butterfree-back-bpg-e-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-bpg-e-rev1-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-e-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-e-rev1-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-e-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-e-rev1-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-e-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-e-rev1-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-e-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-e-rev1-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-e-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-e-rev1-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
       "path": "graphics/pokemon/charizard-back-bpg-e-rev0-retail.png",
       "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
     },
@@ -275,6 +359,30 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-e-rev1-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-e-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-e-rev1-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-e-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-e-rev1-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-e-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-e-rev1-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-e-rev0-retail.png",
@@ -397,6 +505,30 @@
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
     },
     {
+      "path": "graphics/pokemon/butterfree-back-bpg-d-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-d-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-d-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-d-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-d-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-d-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
       "path": "graphics/pokemon/charizard-back-bpg-d-rev0-retail.png",
       "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
     },
@@ -443,6 +575,18 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-d-rev0-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-d-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-d-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-d-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-d-rev0-retail.png",
@@ -517,6 +661,30 @@
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
     },
     {
+      "path": "graphics/pokemon/butterfree-back-bpg-f-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-f-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-f-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-f-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-f-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-f-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
       "path": "graphics/pokemon/charizard-back-bpg-f-rev0-retail.png",
       "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
     },
@@ -563,6 +731,18 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-f-rev0-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-f-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-f-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-f-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-f-rev0-retail.png",
@@ -637,6 +817,30 @@
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
     },
     {
+      "path": "graphics/pokemon/butterfree-back-bpg-i-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-i-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-i-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-i-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-i-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-i-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
       "path": "graphics/pokemon/charizard-back-bpg-i-rev0-retail.png",
       "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
     },
@@ -683,6 +887,18 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-i-rev0-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-i-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-i-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-i-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-i-rev0-retail.png",
@@ -757,6 +973,30 @@
       "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
     },
     {
+      "path": "graphics/pokemon/butterfree-back-bpg-s-rev0-retail.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpg-s-rev0-retail.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-bpg-s-rev0-retail.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-s-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-s-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-s-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
       "path": "graphics/pokemon/charizard-back-bpg-s-rev0-retail.png",
       "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
     },
@@ -803,6 +1043,18 @@
     {
       "path": "graphics/pokemon/ivysaur-front-bpg-s-rev0-retail.png",
       "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-s-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-s-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-s-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d"
     },
     {
       "path": "graphics/pokemon/pikachu-back-bpg-s-rev0-retail.png",
@@ -856,15 +1108,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "c684517045b67ff4653637c9b4118febe4faf7663b0ae0c555ff639ccb12e01f"
+      "sha256": "8fee4ca11fb38d855d8a0eb34e0d2fdaee4b7a93c5ee737c9ff9f0e740e84bb6"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "541a2e9e769aba37d1f651756c044e934e9e770119743daee3bc8458e5f43595"
+      "sha256": "593df91cd2129911eaac52eeda277080ff6bf94e3129064f6531367af28f6884"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "ed95b3690cb21db676eb90d52caed8807128c05e3f3cace232d39e7328a12fe0"
+      "sha256": "7bbeafc091995d8c05d9839f29afdc349a14ac4eeb808cb01961cf529ca1adcd"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",
