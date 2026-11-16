@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-e-rev0-retail",
+    "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 10,
+    "name": "caterpie"
+  },
+  "source": "src/caterpie_species_sprite_tables.asm",
+  "source_sha256": "46c5fc94dfc449ccf566b2b09c863322d4314d258701c9f504634ac9ee0e1aa7",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2314456,
+      "table_offset": 2314376,
+      "source_offset": 13853632,
+      "size": 2048,
+      "tag": 10
+    },
+    "back": {
+      "entry_offset": 2319736,
+      "table_offset": 2319656,
+      "source_offset": 13854272,
+      "size": 2048,
+      "tag": 10
+    },
+    "palette": {
+      "entry_offset": 2323256,
+      "table_offset": 2323176,
+      "source_offset": 13854232,
+      "tag": 10
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/caterpie-front-bpg-e-rev0-retail.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a",
+      "extraction": {
+        "source_offset": 13853632,
+        "compressed_length": 599,
+        "compressed_sha256": "31c7d4b058d7099ade9099cce3477a3aec3b22f0d7524b54b0be0f9098a7e29a",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "2ea4c410a162b3c6d135ef839b1a2fd6e788e1cb174e28eba923bc21dc55504d",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpg-e-rev0-retail.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a",
+      "extraction": {
+        "source_offset": 13854272,
+        "compressed_length": 645,
+        "compressed_sha256": "4b896cef77d4c95ca85bf4e9ef251cd58cf04ba275639e15bd0473afbad7060b",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ea36ffcf2034390444e41363983ebdb8b6db7202d4a26fe82b7fabb9647128f8",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpg-e-rev0-retail.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2",
+      "extraction": {
+        "source_offset": 13854232,
+        "compressed_length": 40,
+        "compressed_sha256": "807a0dc603db22a33b7240b7241f11ecedfa407b0e0ae144be557e004bc4f151",
+        "decompressed_length": 32,
+        "decompressed_sha256": "382e70ba36bdef6f0db0c0b81e6cad276052408c23b91eebd4317ca221945c68",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

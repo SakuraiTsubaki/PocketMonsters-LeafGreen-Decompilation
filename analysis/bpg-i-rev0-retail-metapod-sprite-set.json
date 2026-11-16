@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 11,
+    "name": "metapod"
+  },
+  "source": "src/metapod_species_sprite_tables.asm",
+  "source_sha256": "1e5512387cad3c3dfcd2de417c1d7bf2d190f01f19562a7e47462815ed00d5ae",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2285956,
+      "table_offset": 2285868,
+      "source_offset": 13856008,
+      "size": 2048,
+      "tag": 11
+    },
+    "back": {
+      "entry_offset": 2291236,
+      "table_offset": 2291148,
+      "source_offset": 13856580,
+      "size": 2048,
+      "tag": 11
+    },
+    "palette": {
+      "entry_offset": 2294756,
+      "table_offset": 2294668,
+      "source_offset": 13856548,
+      "tag": 11
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/metapod-front-bpg-i-rev0-retail.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d",
+      "extraction": {
+        "source_offset": 13856008,
+        "compressed_length": 537,
+        "compressed_sha256": "ddcde699f9fd9e2aac067fbd57de5fac9c00732ca9621ea5712d0e976aa66861",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "1fe30711ea00093214bc4ad21edd8bf864f4cf5a22c38a299de77445dec0ddd1",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpg-i-rev0-retail.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825",
+      "extraction": {
+        "source_offset": 13856580,
+        "compressed_length": 537,
+        "compressed_sha256": "e571813451f7a9cb42008a761e4324fc20bc906aa8205317b0e451fb434306c9",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "975a5a5c192c058b95537e9ce07a560913c4280fbb23767515f127c36ca5b4df",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpg-i-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6",
+      "extraction": {
+        "source_offset": 13856548,
+        "compressed_length": 31,
+        "compressed_sha256": "df8287d6ea16cd1bb9d0c6b37d470268766a837e0355246e08aae951af527ea1",
+        "decompressed_length": 32,
+        "decompressed_sha256": "cf9ebbd202f5e8ab0d5f79d54295a4851813c71a53956fe5ed8bafeca4f68dbd",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
